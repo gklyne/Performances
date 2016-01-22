@@ -1,0 +1,39 @@
+{
+  "rdfs:label": "Pippa Marland",
+  "rdfs:comment": "Founder of Carmina; vocals, saxes, whistles\r\n\r\nAlso plays with the Phil Langran band",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.carmina.co.uk"
+    },
+    {
+      "rdfs:seeAlso": "http://www.phillangranband.com/"
+    }
+  ],
+  "annal:type_id": "Musician",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Vocalist"
+    },
+    {
+      "@id": "Role/Saxophones"
+    },
+    {
+      "@id": "Role/Whistles"
+    }
+  ],
+  "crm:P107_has_current_or_former_member": [],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Pippa_Marland",
+  "@id": "./",
+  "@type": [
+    "coll:Musician",
+    "prov:Entity",
+    "prov:Agent",
+    "crm:E39_Actor",
+    "crm:E77_Persistent_Item",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Musician"
+}

@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Carmina / Phil Langran gig page",
+  "rdfs:comment": "Carmina / Phil Langran gig page",
+  "coll:web_resource": "http://www.themazerocks.com/gig/carmina-the-phil-langran-band",
+  "annal:type_id": "Web_resource",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Carmina_Phil_Langran",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Web_resource"
+}

@@ -1,0 +1,15 @@
+{
+  "rdfs:label": "Violinist",
+  "rdfs:comment": "Violinist",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:type_id": "Role",
+  "annal:id": "Violin",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "prov:Role"
+}

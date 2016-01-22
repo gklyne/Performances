@@ -1,0 +1,33 @@
+{
+  "rdfs:label": "Carmina: Crescent City",
+  "rdfs:comment": "Carmina: Crescent City\r\n\r\nTrack Listing:\r\n\r\n1. Blessed are the Broken\r\n2. My Crescent City\r\n3. Mostly Myself\r\n4. Hungry Hill\r\n5. Cold Clear Water of the Mountain\r\n6. Twentythree (In the Morning)\r\n7. Lord Franklin\r\n8. Stretched on your Grave\r\n9. Still Falls the Rain\r\n10. December Song\r\n\r\n'My Crescent City' was produced by Donal Lunny at Westland & Windmill Lane Studios, Dublin (Jan 2007)",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.carmina.co.uk/ccinfo.htm"
+    }
+  ],
+  "coll:resources": [
+    {
+      "coll:web_resource_m": null
+    }
+  ],
+  "annal:type_id": "Recording",
+  "prov:hadMember_repeat": [],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "mo:records": "Performance/Carmina_Crescent_City",
+  "annal:id": "Carmina_Crescent_City",
+  "@id": "./",
+  "@type": [
+    "frbroo:F26_Recording",
+    "prov:Entity",
+    "crm:E70_Thing",
+    "crm:E71_Man-Made_Thing",
+    "crm:E28_Conceptual_Object",
+    "frbroo:F2_Expression",
+    "mo:MusicalExpression",
+    "annal:EntityData"
+  ],
+  "annal:type": "frbroo:F26_Recording"
+}

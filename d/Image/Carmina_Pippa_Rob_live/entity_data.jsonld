@@ -1,0 +1,22 @@
+{
+  "rdfs:label": "Pippa Marland and Rob King of Carmina, performing live",
+  "rdfs:comment": "Pippa Marland and Rob King of Carmina, performing live",
+  "annal:type_id": "Image",
+  "@type": [
+    "coll:Image",
+    "annal:EntityData"
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Carmina_Pippa_Rob_live",
+  "@id": "./",
+  "coll:image": {
+    "upload_name": "Uploaded_image",
+    "uploaded_size": 1623090,
+    "resource_name": "Uploaded_image.jpg",
+    "uploaded_file": "pipparoblivelarge.jpg",
+    "resource_type": "image/jpeg"
+  },
+  "annal:type": "coll:Image"
+}

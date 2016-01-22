@@ -1,0 +1,15 @@
+{
+  "rdfs:label": "Electric guitarist",
+  "rdfs:comment": "Electric guitarist",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:type_id": "Role",
+  "annal:id": "Electric_guitar",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "prov:Role"
+}

@@ -1,0 +1,22 @@
+{
+  "rdfs:label": "Westland studios, Dublin",
+  "rdfs:comment": "Westland studios, Dublin",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.westlandstudiosdublin.com"
+    }
+  ],
+  "annal:type_id": "Place",
+  "crm:P89_falls_within": "Place/Dublin",
+  "crm:P89i_contains_repeat": [],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Westland_studio",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "crm:E53_Place"
+}

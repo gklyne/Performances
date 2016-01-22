@@ -1,0 +1,30 @@
+{
+  "rdfs:label": "Mark Walker",
+  "rdfs:comment": "Performs bass and vocals with the Phil Langran Band",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.phillangranband.com/"
+    }
+  ],
+  "annal:type_id": "Performer",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Bass"
+    },
+    {
+      "@id": "Role/Vocalist"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Mark_Walker",
+  "@id": "./",
+  "@type": [
+    "crm:E39_Actor",
+    "prov:Entity",
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "crm:E39_Actor"
+}

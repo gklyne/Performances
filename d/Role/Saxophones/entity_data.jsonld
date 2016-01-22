@@ -1,0 +1,15 @@
+{
+  "rdfs:label": "Saxophonist",
+  "rdfs:comment": "Saxophonist",
+  "annal:type_id": "Role",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Saxophones",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "prov:Role"
+}

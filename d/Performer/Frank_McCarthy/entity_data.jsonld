@@ -1,0 +1,39 @@
+{
+  "rdfs:label": "Frank McCarthy",
+  "rdfs:comment": "Performs electric guitar and vocals for the Phil Langran band.\r\n\r\nAlso vocal arranger and producer for (at least one of) their albums.\r\n\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.phillangranband.com/"
+    },
+    {
+      "rdfs:seeAlso": "https://folkwitrecords.bandcamp.com/album/jukebox-love-songs-leaving-blues-border-crossings-lovers-laments"
+    }
+  ],
+  "annal:type_id": "Performer",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Electric_guitar"
+    },
+    {
+      "@id": "Role/Vocalist"
+    },
+    {
+      "@id": "Role/Arranger"
+    },
+    {
+      "@id": "Role/Producer"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Frank_McCarthy",
+  "@id": "./",
+  "@type": [
+    "crm:E39_Actor",
+    "prov:Entity",
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "crm:E39_Actor"
+}

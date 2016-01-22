@@ -1,0 +1,45 @@
+{
+  "rdfs:label": "Phil Langran band",
+  "rdfs:comment": "Nottingham songwriter Phil Langran\u2019s songs are engaging, literate and accessible. His versatile band creates a unique sound firmly rooted in folk, while interweaving elements of American, Celtic, blues and jazz traditions. Phil has created his own genre, where Harlem nights and New York cityscapes rub shoulders with the West Coast of Ireland and scenes from Werner Herzog\u2019s films.\r\n\r\nDescribed on their web site as \"Folk & Blues, Celtic & Americana\".\r\n\r\nPhil (vocals and acoustic guitar), Steve Benford (acoustic guitar, banjo, vocals), Mark Walker (bass, vocals), Frank McCarthy (electric guitar, vocals) and Pippa Marland (sax, whistle, vocals) ",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.phillangranband.com/"
+    }
+  ],
+  "annal:type_id": "Ensemble",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Band_folk_roots"
+    }
+  ],
+  "crm:P107_has_current_or_former_member": [
+    {
+      "@id": "Musician/Phil_Langran"
+    },
+    {
+      "@id": "Musician/Steve_Benford"
+    },
+    {
+      "@id": "Performer/Mark_Walker"
+    },
+    {
+      "@id": "Performer/Frank_McCarthy"
+    },
+    {
+      "@id": "Musician/Pippa_Marland"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Phil_Langran_band",
+  "@id": "./",
+  "@type": [
+    "crm:E74_Group",
+    "prov:Entity",
+    "prov:Agent",
+    "crm:E39_Actor",
+    "annal:EntityData"
+  ],
+  "annal:type": "crm:E74_Group"
+}

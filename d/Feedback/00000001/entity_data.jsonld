@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "Socks blown off (sample record)",
+  "rdfs:comment": "Best performance ever seen\r\n\r\n(sample feedback record)",
+  "annal:type_id": "Feedback",
+  "coll:moderated": false,
+  "coll:rating": "5",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "00000001",
+  "@id": "./",
+  "@type": [
+    "coll:Feedback",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Feedback"
+}

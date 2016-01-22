@@ -1,0 +1,30 @@
+{
+  "rdfs:label": "Gina Griffin",
+  "rdfs:comment": "\"fiddle virtuoso\"",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.ginagriffinmusic.com"
+    }
+  ],
+  "annal:type_id": "Musician",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Violin"
+    }
+  ],
+  "crm:P107_has_current_or_former_member": [],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Gina_Griffin",
+  "@id": "./",
+  "@type": [
+    "coll:Musician",
+    "prov:Entity",
+    "prov:Agent",
+    "crm:E39_Actor",
+    "crm:E77_Persistent_Item",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Musician"
+}

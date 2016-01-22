@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "Dublin",
+  "rdfs:comment": "",
+  "entity:seeAlso_r": [],
+  "crm:P89i_contains_repeat": [],
+  "annal:type_id": "Place",
+  "crm:P89_falls_within": "",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Dublin",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "crm:E53_Place"
+}

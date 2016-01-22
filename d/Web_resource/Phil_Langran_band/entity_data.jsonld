@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Phil Langran Band web site",
+  "rdfs:comment": "Phil Langran Band web site",
+  "coll:web_resource": "http://phillangranband.com",
+  "annal:type_id": "Web_resource",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Phil_Langran_band",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Web_resource"
+}

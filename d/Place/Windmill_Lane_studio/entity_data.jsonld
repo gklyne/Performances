@@ -1,0 +1,21 @@
+{
+  "rdfs:label": "Windmill Lane Studios, Dublin",
+  "rdfs:comment": "'My Crescent City' was produced by Donal Lunny at Westland & Windmill Lane Studios, Dublin (Jan 2007)\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.windmilllanerecording.com"
+    }
+  ],
+  "annal:type_id": "Place",
+  "annal:missing_field": "",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Windmill_Lane_studio",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "crm:E53_Place"
+}

@@ -1,0 +1,30 @@
+{
+  "rdfs:label": "Geoff Castle",
+  "rdfs:comment": "Since 1970 Geoff has worked as a professional jazz keyboard player with many top British jazz artists recording albums covering a wide variety of jazz and folk music.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.turretjazz.co.uk/"
+    }
+  ],
+  "annal:type_id": "Musician",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Piano"
+    }
+  ],
+  "crm:P107_has_current_or_former_member": [],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Geoff_Castle",
+  "@id": "./",
+  "@type": [
+    "coll:Musician",
+    "prov:Entity",
+    "prov:Agent",
+    "crm:E39_Actor",
+    "crm:E77_Persistent_Item",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Musician"
+}

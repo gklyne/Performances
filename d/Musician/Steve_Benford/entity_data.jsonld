@@ -1,0 +1,44 @@
+{
+  "rdfs:label": "Steve Benford",
+  "rdfs:comment": "Performs acoustic guitar, banjo and vocals with the Phil Langran band.\r\n\r\nAlso a professor of computer science at Nottingham University, conducting research into human-computer interfaces (especially applied to music and performance).",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://www.nottingham.ac.uk/computerscience/people/steve.benford"
+    },
+    {
+      "rdfs:seeAlso": "http://www.bbc.co.uk/rd/people/steve-benford"
+    },
+    {
+      "rdfs:seeAlso": "https://twitter.com/profbenford"
+    },
+    {
+      "rdfs:seeAlso": "http://www.phillangranband.com/"
+    }
+  ],
+  "annal:type_id": "Musician",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Guitars"
+    },
+    {
+      "@id": "Role/Banjo"
+    },
+    {
+      "@id": "Role/Vocalist"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Steve_Benford",
+  "@id": "./",
+  "@type": [
+    "coll:Musician",
+    "prov:Entity",
+    "prov:Agent",
+    "crm:E39_Actor",
+    "crm:E77_Persistent_Item",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Musician"
+}

@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "The Maze music venue, Nottingham",
+  "rdfs:comment": "The Maze music venue, Nottingham",
+  "coll:web_resource": "http://www.themazerocks.com",
+  "annal:type_id": "Web_resource",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "The_Maze_Nottingham",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Web_resource"
+}

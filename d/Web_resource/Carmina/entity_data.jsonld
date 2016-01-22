@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Carmina web site",
+  "rdfs:comment": "Carmina web site",
+  "coll:web_resource": "http://www.carmina.co.uk",
+  "annal:type_id": "Web_resource",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Carmina",
+  "@id": "./",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Web_resource"
+}

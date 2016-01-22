@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "Bristol",
+  "rdfs:comment": "Bristol",
+  "entity:seeAlso_r": [],
+  "crm:P89i_contains_repeat": [],
+  "annal:type_id": "Place",
+  "crm:P89_falls_within": "",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Bristol",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "crm:E53_Place"
+}

@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "Westland & Windmill Lane Studios, Dublin",
+  "rdfs:comment": "Westland & Windmill Lane Studios, Dublin",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Place",
+  "annal:type": "crm:E53_Place",
+  "crm:P89i_contains_repeat": [
+    {
+      "crm:P89i_contains": "Place/Windmill_Lane_studio"
+    },
+    {
+      "crm:P89i_contains": "Place/Westland_studio"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Westland_windmill_Lane_studios",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "crm:P89_falls_within": "Place/Dublin"
+}

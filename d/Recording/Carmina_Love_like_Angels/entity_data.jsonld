@@ -1,0 +1,28 @@
+{
+  "rdfs:label": "Carmina: Love like Angels",
+  "rdfs:comment": "Carmina: Love like Angels\r\n\r\nTrack Listing:\r\n\r\n1. Cut You Into Stars\r\n2. You Are In My Heart (mp3 clip)\r\n3. Love Like Angels (mp3)\r\n4. Not Turning Into Stone\r\n5. Beulah Mae's Dream\r\n6. Mireia\r\n7. World Inside Of Nothing\r\n8. Blackwaterside \r\n9. Thin Blue Line (mp3 clip)\r\n10. Katy, The Years\r\n11. Tom Moody (mp3 clip)\r\n12. The Moody Jigs\r\n\r\nRecorded at Christchurch Studios, Bristol (2000)\r\n\r\nProduced by Rob King\r\n\r\nFeaturing Rob & Pippa with Pete Jacobsen, Ben Groenvelt, Nic France, Julian Nicholas & Special guest Paul McGann.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.carmina.co.uk/angelinfo.htm"
+    }
+  ],
+  "annal:type_id": "Recording",
+  "prov:hadMember_repeat": [],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "mo:records": "Performance/Carmina_Love_Like_Angels",
+  "annal:id": "Carmina_Love_like_Angels",
+  "@id": "./",
+  "@type": [
+    "frbroo:F26_Recording",
+    "prov:Entity",
+    "crm:E70_Thing",
+    "crm:E71_Man-Made_Thing",
+    "crm:E28_Conceptual_Object",
+    "frbroo:F2_Expression",
+    "mo:MusicalExpression",
+    "annal:EntityData"
+  ],
+  "annal:type": "frbroo:F26_Recording"
+}
