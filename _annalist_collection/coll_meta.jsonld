@@ -4,7 +4,7 @@
   "annal:software_version": "0.1.23",
   "annal:type_id": "_coll",
   "annal:inherit_from": "_coll/Performance_defs",
-  "annal:comment": "Performance DMO data, edited by hand - 2016-01-04",
+  "annal:comment": "Performance DMO data, edited by hand - 2016-01-22",
   "annal:default_list": "Performances",
   "annal:default_view_entity": "04_Performances_front_page",
   "annal:default_view_type": "Journal",
