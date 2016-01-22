@@ -6,7 +6,7 @@
       "rdfs:seeAlso": "http://www.phillangranband.com/"
     }
   ],
-  "annal:type_id": "Performer",
+  "annal:type_id": "Musician",
   "coll:performs_role": [
     {
       "@id": "Role/Bass"
@@ -21,10 +21,12 @@
   "annal:id": "Mark_Walker",
   "@id": "./",
   "@type": [
-    "crm:E39_Actor",
+    "coll:Musician",
     "prov:Entity",
     "prov:Agent",
+    "crm:E39_Actor",
+    "crm:E77_Persistent_Item",
     "annal:EntityData"
   ],
-  "annal:type": "crm:E39_Actor"
+  "annal:type": "coll:Musician"
 }
