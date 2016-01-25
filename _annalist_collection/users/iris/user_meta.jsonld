@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Iris Garrelfs",
+  "rdfs:comment": "User iris",
+  "annal:user_uri": "mailto:iris@irisgarrelfs.com",
+  "annal:type_id": "_user",
+  "annal:user_permissions": [
+    "VIEW",
+    "CONFIG"
+  ],
+  "annal:id": "iris",
+  "@id": "./",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:type": "annal:User"
+}
