@@ -1,10 +1,10 @@
 {
-  "rdfs:label": "Whistle player",
+  "rdfs:label": "Whistle",
   "rdfs:comment": "Whistle player",
+  "annal:type_id": "Role",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
   "annal:id": "Whistles",
   "@id": "./",
   "@type": [

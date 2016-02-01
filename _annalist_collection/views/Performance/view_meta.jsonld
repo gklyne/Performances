@@ -1,0 +1,73 @@
+{
+  "annal:view_fields": [
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:field_id": "_field/Entity_id"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:field_id": "_field/Entity_type"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/Entity_label"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:field_id": "_field/Place"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:field_id": "_field/Event_date_time"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/Performer_r"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/Played_r"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/Used_r"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/Entity_comment"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/See_also_r"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
+      "annal:field_id": "_field/Uploaded_image_r"
+    }
+  ],
+  "rdfs:label": "Performance",
+  "rdfs:comment": "Display/edit details of a performance activity",
+  "annal:id": "Performance",
+  "annal:type_id": "_view",
+  "annal:record_type": "frbroo:F31_Performance",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:open_view": true,
+  "@id": "./",
+  "@type": [
+    "annal:View"
+  ],
+  "annal:type": "annal:View"
+}

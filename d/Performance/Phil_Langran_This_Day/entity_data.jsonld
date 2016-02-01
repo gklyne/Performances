@@ -1,0 +1,79 @@
+{
+  "rdfs:label": "Phil Langran: This Day (2005)",
+  "rdfs:comment": "Track list\r\n\r\n1. County Cork to Downeast Maine 03:37\r\n2. Dunmanus Bay 03:25\r\n3. You'd Be Right 02:48\r\n4. Girl on the Shore 03:00\r\n5. The Point of No Return 02:54\r\n6. Crossing Brooklyn Bridge 02:32\r\n7. Down on Your Luck 03:03\r\n8. Arkaroola 02:43\r\n9. All American Orphan 03:04\r\n10. The Reckoning 02:36\r\n11. Song for a Dark Girl 02:16\r\n12. All But Time 03:07\r\n13. The Pride of St James 03:10\r\n14. Return To The Point of No Return 02:54\r\n\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://phillangranband.com/this-day-2005"
+    }
+  ],
+  "annal:type_id": "Performance",
+  "coll:images": [
+    {
+      "coll:Image": "Image/Phil_Langran_This_Day"
+    }
+  ],
+  "prov:qualifiedAssociation": [
+    {
+      "crm:P12i_was_present_at": "Musician/Phil_Langran",
+      "prov:hadRole": "Role/Vocalist"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Phil_Langran",
+      "prov:hadRole": "Role/Guitars"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Steve_Benford",
+      "prov:hadRole": "Role/Guitars"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Steve_Benford",
+      "prov:hadRole": "Role/Banjo"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Steve_Benford",
+      "prov:hadRole": "Role/Bass"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Frank_McCarthy",
+      "prov:hadRole": "Role/Electric_guitar"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Chris_Pitcher",
+      "prov:hadRole": "Role/Bass"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Milli_Galgut",
+      "prov:hadRole": "Role/Violin"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Rick_Dizon",
+      "prov:hadRole": "Role/Dobro"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Penny_Benford",
+      "prov:hadRole": "Role/Flute"
+    },
+    {
+      "crm:P12i_was_present_at": "Performer/Ali_Dennis",
+      "prov:hadRole": "Role/Backing_vocals"
+    }
+  ],
+  "frbroo:R25F_performed_r": [],
+  "@id": "./",
+  "prov:used_r": [],
+  "crm:P7_took_place_at": "Place/West_Bridgford",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "prov:startedAtTime": "2004 - 2005",
+  "annal:id": "Phil_Langran_This_Day",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "mo:Performance",
+    "annal:EntityData"
+  ],
+  "annal:type": "frbroo:F31_Performance"
+}

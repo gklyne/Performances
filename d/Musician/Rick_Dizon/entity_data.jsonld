@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "Rick Dizon",
+  "rdfs:comment": "Dobro player\r\n\r\n",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Musician",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Dobro"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Rick_Dizon",
+  "@id": "./",
+  "@type": [
+    "coll:Musician",
+    "prov:Entity",
+    "prov:Agent",
+    "crm:E39_Actor",
+    "crm:E77_Persistent_Item",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Musician"
+}

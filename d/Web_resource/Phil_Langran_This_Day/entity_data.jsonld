@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "rdfs:label": "Phil Langran: This Day (2005) download",
+  "rdfs:comment": "Download link for Phil Langran Band's album \"This Day\"",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Web_resource",
+  "@type": [
+    "coll:Web_resource",
+    "annal:EntityData"
+  ],
+  "coll:performs_role": [],
+  "annal:type": "coll:Web_resource",
+  "crm:P107_has_current_or_former_member": [],
+  "coll:web_resource": "http://phillangranband.com/albums/297532",
+  "annal:id": "Phil_Langran_This_Day",
+  "@id": "./",
+  "coll:images": [],
+  "coll:recorded_repeat": []
+}

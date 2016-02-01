@@ -1,10 +1,10 @@
 {
-  "rdfs:label": "Banjo player",
-  "rdfs:comment": "Banjo player",
+  "rdfs:label": "Banjo",
+  "rdfs:comment": "Banjo",
+  "annal:type_id": "Role",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
   "annal:id": "Banjo",
   "@id": "./",
   "@type": [

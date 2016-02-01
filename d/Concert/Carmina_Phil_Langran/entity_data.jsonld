@@ -12,16 +12,8 @@
       "rdfs:seeAlso": "/annalist/c/Performances/l/Journal_entries/"
     }
   ],
-  "annal:type_id": "Performance",
+  "annal:type_id": "Concert",
   "annal:missing_field": "",
-  "coll:images": [
-    {
-      "coll:Image": "Image/Carmina_Phil_Langran_poster"
-    },
-    {
-      "coll:Image": "Image/Carmina_Pippa_Rob_live"
-    }
-  ],
   "prov:qualifiedAssociation": [
     {
       "crm:P12i_was_present_at": "Ensemble/Carmina",
@@ -34,21 +26,30 @@
   ],
   "frbroo:R25F_performed_r": [],
   "@id": "./",
-  "prov:startedAtTime": "2016-01-17T20:00",
+  "prov:used_r": [],
   "crm:P7_took_place_at": "Place/The_Maze_Nottingham",
   "crm:P126_employed_r": [],
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
-  "prov:used_r": [],
-  "annal:id": "Carmina_Phil_Langran",
   "@type": [
-    "frbroo:F31_Performance",
+    "coll:Concert",
     "prov:Activity",
     "crm:E5_Event",
     "crm:E7_Activity",
     "mo:Performance",
+    "frbroo:F31_Performance",
     "annal:EntityData"
   ],
-  "annal:type": "frbroo:F31_Performance"
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "prov:startedAtTime": "2016-01-17T20:00",
+  "annal:id": "Carmina_Phil_Langran",
+  "coll:images": [
+    {
+      "coll:Image": "Image/Carmina_Phil_Langran_poster"
+    },
+    {
+      "coll:Image": "Image/Carmina_Pippa_Rob_live"
+    }
+  ],
+  "annal:type": "coll:Concert"
 }

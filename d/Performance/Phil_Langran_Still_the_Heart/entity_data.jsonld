@@ -1,0 +1,67 @@
+{
+  "rdfs:label": "Phil Langran: Still the Heart (2014)",
+  "rdfs:comment": "Phil Langran: Still the Heart (2014)\r\n\r\nPhil Langran             vocals, acoustic guitar\r\nSteve Benford           acoustic guitar\r\nFrank McCarthy        electric guitar, vocals\r\nMark Walker             bass, vocals\r\nPippa Marland          alto & soprano sax, vocals\r\n\r\n1. Meeting by the river\r\n2. Nothing more\r\n3. Forsaken\r\n4. Injury time\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://phillangranband.com/still-the-heart-2014"
+    }
+  ],
+  "annal:type_id": "Performance",
+  "prov:qualifiedAssociation": [
+    {
+      "crm:P12i_was_present_at": "Musician/Phil_Langran",
+      "prov:hadRole": "Role/Vocalist"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Phil_Langran",
+      "prov:hadRole": "Role/Guitars"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Steve_Benford",
+      "prov:hadRole": "Role/Guitars"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Frank_McCarthy",
+      "prov:hadRole": "Role/Electric_guitar"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Frank_McCarthy",
+      "prov:hadRole": "Role/Vocalist"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Mark_Walker",
+      "prov:hadRole": "Role/Bass"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Mark_Walker",
+      "prov:hadRole": "Role/Vocalist"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Pippa_Marland",
+      "prov:hadRole": "Role/Saxophones"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Pippa_Marland",
+      "prov:hadRole": "Role/Vocalist"
+    }
+  ],
+  "frbroo:R25F_performed_r": [],
+  "@id": "./",
+  "prov:startedAtTime": "2014",
+  "crm:P7_took_place_at": "Place/West_Bridgford",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "mo:Performance",
+    "annal:EntityData"
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "prov:used_r": [],
+  "annal:id": "Phil_Langran_Still_the_Heart",
+  "coll:images": [],
+  "annal:type": "frbroo:F31_Performance"
+}

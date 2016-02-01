@@ -4,12 +4,9 @@
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.phillangranband.com/"
-    }
-  ],
-  "annal:type_id": "Ensemble",
-  "coll:performs_role": [
+    },
     {
-      "@id": "Role/Band_folk_roots"
+      "rdfs:seeAlso": "http://phillangranband.com/albums/297532"
     }
   ],
   "crm:P107_has_current_or_former_member": [
@@ -20,20 +17,15 @@
       "@id": "Musician/Steve_Benford"
     },
     {
-      "@id": "Performer/Mark_Walker"
+      "@id": "Musician/Mark_Walker"
     },
     {
-      "@id": "Performer/Frank_McCarthy"
+      "@id": "Musician/Frank_McCarthy"
     },
     {
       "@id": "Musician/Pippa_Marland"
     }
   ],
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
-  "annal:id": "Phil_Langran_band",
-  "@id": "./",
   "@type": [
     "crm:E74_Group",
     "prov:Entity",
@@ -41,5 +33,31 @@
     "crm:E39_Actor",
     "annal:EntityData"
   ],
-  "annal:type": "crm:E74_Group"
+  "coll:performs_role": [
+    {
+      "@id": "Role/Band_folk_roots"
+    }
+  ],
+  "annal:type": "crm:E74_Group",
+  "annal:type_id": "Ensemble",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Phil_Langran_band",
+  "@id": "./",
+  "coll:images": [],
+  "coll:recorded_repeat": [
+    {
+      "coll:recorded": "Recording/This_Day"
+    },
+    {
+      "coll:recorded": "Recording/Phil_Langran_Here"
+    },
+    {
+      "coll:recorded": "Recording/Phil_Langran_Juke_Box_Love_Songs"
+    },
+    {
+      "coll:recorded": "Recording/Phil_Langran_Still_the_Heart"
+    }
+  ]
 }

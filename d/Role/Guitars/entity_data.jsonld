@@ -1,10 +1,10 @@
 {
-  "rdfs:label": "Guitarist",
-  "rdfs:comment": "Guitarist",
+  "rdfs:label": "Accoustic Guitar",
+  "rdfs:comment": "Accoustic Guitar",
+  "annal:type_id": "Role",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
   "annal:id": "Guitars",
   "@id": "./",
   "@type": [

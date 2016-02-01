@@ -1,0 +1,35 @@
+{
+  "rdfs:label": "Concert performance",
+  "rdfs:comment": "A public event at which some performance (music, artistic, etc.) is presented.\r\n\r\nAn event that takes place in a specific time and place.\r\n\r\nA performance further involves performers and/or group and a composition or script.\r\n\r\nSee also: Erlangen [frbroo:F31_Performance](http://erlangen-crm.org/docs/efrbroo/latest/classes/F31Performance___109147093.html) and [F20_Performance_Work](http://erlangen-crm.org/docs/efrbroo/latest/classes/F20PerformanceWork___1623796283.html)",
+  "annal:field_aliases": [],
+  "annal:type_id": "_type",
+  "annal:supertype_uris": [
+    {
+      "annal:supertype_uri": "prov:Activity"
+    },
+    {
+      "annal:supertype_uri": "crm:E5_Event"
+    },
+    {
+      "annal:supertype_uri": "crm:E7_Activity"
+    },
+    {
+      "annal:supertype_uri": "mo:Performance"
+    },
+    {
+      "annal:supertype_uri": "frbroo:F31_Performance"
+    }
+  ],
+  "annal:uri": "coll:Concert",
+  "annal:type_list": "_list/Concerts",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Concert",
+  "@id": "./",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_view": "_view/Concert"
+}

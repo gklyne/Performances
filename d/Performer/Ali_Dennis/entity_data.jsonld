@@ -1,0 +1,23 @@
+{
+  "rdfs:label": "Ali Dennis",
+  "rdfs:comment": "Backing vocals with Phil Langran Band",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Performer",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Backing_vocals"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Ali_Dennis",
+  "@id": "./",
+  "@type": [
+    "crm:E39_Actor",
+    "prov:Entity",
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "crm:E39_Actor"
+}

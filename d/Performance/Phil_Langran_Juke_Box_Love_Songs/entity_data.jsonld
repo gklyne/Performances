@@ -1,0 +1,71 @@
+{
+  "rdfs:label": "Phil Langran: Juke Box Love Songs, etc.",
+  "rdfs:comment": "Juke Box Love Songs, Leaving Blues, Border Crossings and Lovers' Laments.\r\n\r\n1. Juke box love song\r\n2. Lament over love\r\n3. Homesick poor boy blues\r\n4. Leaving this town\r\n5. Mother to son\r\n6. Hard daddy\r\n7. The end of the street\r\n8. Never been to Harlem\r\n9. Pierrot\r\n10. Harlem night song\r\n11. Love\r\n12. Harlem night song (reprise)\r\n\r\n",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Performance",
+  "coll:images": [],
+  "prov:qualifiedAssociation": [
+    {
+      "crm:P12i_was_present_at": "Musician/Phil_Langran",
+      "prov:hadRole": "Role/Vocalist"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Phil_Langran",
+      "prov:hadRole": "Role/Guitars"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Steve_Benford",
+      "prov:hadRole": "Role/Guitars"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Steve_Benford",
+      "prov:hadRole": "Role/Banjo"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Steve_Benford",
+      "prov:hadRole": "Role/Vocalist"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Frank_McCarthy",
+      "prov:hadRole": "Role/Electric_guitar"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Mark_Walker",
+      "prov:hadRole": "Role/Bass"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Mark_Walker",
+      "prov:hadRole": "Role/Vocalist"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Pippa_Marland",
+      "prov:hadRole": "Role/Saxophones"
+    },
+    {
+      "crm:P12i_was_present_at": "Musician/Pippa_Marland",
+      "prov:hadRole": "Role/Vocalist"
+    },
+    {
+      "crm:P12i_was_present_at": "Performer/Ian_Beestin",
+      "prov:hadRole": "Role/Drums"
+    }
+  ],
+  "frbroo:R25F_performed_r": [],
+  "@id": "./",
+  "prov:used_r": [],
+  "crm:P7_took_place_at": "Place/West_Bridgford",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "prov:startedAtTime": "2011",
+  "annal:id": "Phil_Langran_Juke_Box_Love_Songs",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "mo:Performance",
+    "annal:EntityData"
+  ],
+  "annal:type": "frbroo:F31_Performance"
+}

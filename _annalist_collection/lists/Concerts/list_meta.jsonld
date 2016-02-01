@@ -1,0 +1,29 @@
+{
+  "rdfs:label": "List of concerts",
+  "rdfs:comment": "List of concert performances",
+  "annal:default_view": "_view/Concert",
+  "annal:default_type": "_type/Concert",
+  "annal:record_type": "coll:Concert",
+  "annal:type_id": "_list",
+  "annal:list_entity_selector": "\"coll:Concert\" in [@type]",
+  "annal:display_type": "Enum_list_type/List",
+  "annal:list_fields": [
+    {
+      "annal:field_placement": "small:0,3",
+      "annal:field_id": "_field/Entity_id"
+    },
+    {
+      "annal:field_placement": "small:3,9",
+      "annal:field_id": "_field/Entity_label"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Concerts",
+  "@id": "./",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:type": "annal:List"
+}
