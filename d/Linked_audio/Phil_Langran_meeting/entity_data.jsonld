@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Phil Langran: Meeting by the river",
+  "rdfs:comment": "Phil Langran: Meeting by the river",
+  "coll:audio_clip": "http://phillangranband.com/track/626898/meeting-by-the-river?feature_id=116966",
+  "annal:type_id": "Linked_audio",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Phil_Langran_meeting",
+  "@id": "./",
+  "@type": [
+    "coll:Linked_audio",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Linked_audio"
+}

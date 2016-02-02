@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Phil Langran: Here: Burden of dreams",
+  "rdfs:comment": "Phil Langran: Here: Burden of dreams",
+  "coll:audio_clip": "http://phillangranband.com/track/94834/burden-of-dreams?feature_id=43930",
+  "annal:type_id": "Linked_audio",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Phil_Langran_Here_burden",
+  "@id": "./",
+  "@type": [
+    "coll:Linked_audio",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Linked_audio"
+}

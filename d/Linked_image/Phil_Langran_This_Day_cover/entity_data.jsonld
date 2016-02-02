@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Phil Langran: This Day - cover photo",
+  "rdfs:comment": "Phil Langran: This Day - cover photo",
+  "annal:type_id": "Linked_image",
+  "coll:linked_image": "http://s3.amazonaws.com/content.sitezoogle.com/u/36164/b9738ade44449bd9d48f1c3266d51bf842b70d30/large/this-day-cover.png?1441305547",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Phil_Langran_This_Day_cover",
+  "@id": "./",
+  "@type": [
+    "coll:Linked_image",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Linked_image"
+}

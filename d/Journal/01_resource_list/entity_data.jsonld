@@ -21,7 +21,7 @@
   "coll:date": "2016-01-07",
   "coll:images": [
     {
-      "coll:Image": "Image/upload_image"
+      "coll:Image": "Uploaded_image/upload_image"
     }
   ],
   "@context": [

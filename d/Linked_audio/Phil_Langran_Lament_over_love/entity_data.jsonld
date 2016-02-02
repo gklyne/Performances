@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Phil Langran: Lament over love",
+  "rdfs:comment": "Phil Langran: Lament over love",
+  "coll:audio_clip": "http://phillangranband.com/track/90076/lament-over-love?feature_id=43928",
+  "annal:type_id": "Linked_audio",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Phil_Langran_Lament_over_love",
+  "@id": "./",
+  "@type": [
+    "coll:Linked_audio",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Linked_audio"
+}

@@ -1,0 +1,16 @@
+{
+  "@id": "./",
+  "rdfs:label": "",
+  "rdfs:comment": "",
+  "annal:type_id": "Linked_image",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "0000000",
+  "coll:linked_image": "http://s3.amazonaws.com/content.sitezoogle.com/u/36164/da608d2061d2ba430b69b38833270e2baae75543/large/79830.jpg?1373665795",
+  "@type": [
+    "coll:Linked_image",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Linked_image"
+}

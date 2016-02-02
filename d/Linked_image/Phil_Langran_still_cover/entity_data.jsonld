@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Phil Langran: Still the Heart - cover photo",
+  "rdfs:comment": "Phil Langran: Still the Heart - cover photo\r\n\r\nPhoto by Max Langran",
+  "annal:type_id": "Linked_image",
+  "coll:linked_image": "http://s3.amazonaws.com/content.sitezoogle.com/u/36164/912de9359c553bbfb19730738ec0e028f3c8b075/large/still-the-heart-cover.png?1399135770",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Phil_Langran_still_cover",
+  "@id": "./",
+  "@type": [
+    "coll:Linked_image",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Linked_image"
+}

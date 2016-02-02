@@ -33,6 +33,7 @@
     "crm:E39_Actor",
     "annal:EntityData"
   ],
+  "coll:uploaded_image_r": [],
   "coll:performs_role": [
     {
       "@id": "Role/Band_folk_roots"
@@ -48,7 +49,7 @@
   "coll:images": [],
   "coll:recorded_repeat": [
     {
-      "coll:recorded": "Recording/This_Day"
+      "coll:recorded": "Recording/Phil_Langran_This_Day"
     },
     {
       "coll:recorded": "Recording/Phil_Langran_Here"

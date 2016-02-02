@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Phil Langran: Juke box love songs",
+  "rdfs:comment": "Phil Langran: Juke box love songs",
+  "coll:audio_clip": "http://phillangranband.com/track/90725/juke-box-love-song?feature_id=43928",
+  "annal:type_id": "Linked_audio",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Phil_Langran_Juke_box_love_songs",
+  "@id": "./",
+  "@type": [
+    "coll:Linked_audio",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Linked_audio"
+}

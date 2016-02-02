@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Phil Langran: This Day: Country Cork to Downeast Maine",
+  "rdfs:comment": "Phil Langran: This Day: Country Cork to Downeast Maine",
+  "coll:audio_clip": "http://phillangranband.com/track/887134/county-cork-to-downeast-maine?feature_id=214020",
+  "annal:type_id": "Linked_audio",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Phil_Langran_county_cork",
+  "@id": "./",
+  "@type": [
+    "coll:Linked_audio",
+    "annal:EntityData"
+  ],
+  "annal:type": "coll:Linked_audio"
+}
