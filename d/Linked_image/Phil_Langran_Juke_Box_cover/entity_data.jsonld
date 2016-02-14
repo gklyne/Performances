@@ -1,15 +1,16 @@
 {
-  "@id": "./",
   "rdfs:label": "Phil Langran: Juke box love songs - cover photo",
   "rdfs:comment": "Phil Langran: Juke box love songs - cover photo",
   "annal:type_id": "Linked_image",
+  "coll:linked_image": "http://s3.amazonaws.com/content.sitezoogle.com/u/36164/da608d2061d2ba430b69b38833270e2baae75543/large/79830.jpg?1373665795",
   "@context": [
     "../../coll_context.jsonld"
   ],
   "annal:id": "Phil_Langran_Juke_Box_cover",
-  "coll:linked_image": "http://s3.amazonaws.com/content.sitezoogle.com/u/36164/da608d2061d2ba430b69b38833270e2baae75543/large/79830.jpg?1373665795",
+  "@id": "./",
   "@type": [
     "coll:Linked_image",
+    "coll:Included_image",
     "annal:EntityData"
   ],
   "annal:type": "coll:Linked_image"

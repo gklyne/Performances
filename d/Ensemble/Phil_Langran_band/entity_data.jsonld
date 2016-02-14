@@ -26,6 +26,20 @@
       "@id": "Musician/Pippa_Marland"
     }
   ],
+  "coll:performs_role": [
+    {
+      "@id": "Role/Band_folk_roots"
+    }
+  ],
+  "@id": "./",
+  "coll:included_image_r": [
+    {
+      "coll:included_image_m": "Linked_image/Phil_Langran_band_members"
+    },
+    {
+      "coll:included_image_m": "Uploaded_image/Carmina_Phil_Langran_poster"
+    }
+  ],
   "@type": [
     "crm:E74_Group",
     "prov:Entity",
@@ -34,18 +48,12 @@
     "annal:EntityData"
   ],
   "coll:uploaded_image_r": [],
-  "coll:performs_role": [
-    {
-      "@id": "Role/Band_folk_roots"
-    }
-  ],
   "annal:type": "crm:E74_Group",
   "annal:type_id": "Ensemble",
   "@context": [
     "../../coll_context.jsonld"
   ],
   "annal:id": "Phil_Langran_band",
-  "@id": "./",
   "coll:images": [],
   "coll:recorded_repeat": [
     {

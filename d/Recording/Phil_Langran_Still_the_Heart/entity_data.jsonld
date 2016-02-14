@@ -16,6 +16,7 @@
       "coll:linked_image": "Linked_image/Phil_Langran_still_cover"
     }
   ],
+  "coll:included_image_r": [],
   "annal:type_id": "Recording",
   "prov:hadMember_repeat": [],
   "@context": [

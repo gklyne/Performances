@@ -1,14 +1,14 @@
 {
   "rdfs:label": "Sample image",
   "rdfs:comment": "Fox spotted at Kegworth Lock in 2015",
-  "annal:type_id": "Image",
-  "coll:image": {
+  "coll:uploaded_image": {
     "upload_name": "Uploaded_image",
     "uploaded_size": 1509337,
     "resource_name": "Uploaded_image.jpg",
     "uploaded_file": "20150426-1356-038.jpg",
     "resource_type": "image/jpeg"
   },
+  "annal:type_id": "Uploaded_image",
   "@context": [
     "../../coll_context.jsonld"
   ],
@@ -16,6 +16,7 @@
   "@id": "./",
   "@type": [
     "coll:Uploaded_image",
+    "coll:Included_image",
     "annal:EntityData"
   ],
   "annal:type": "coll:Uploaded_image"

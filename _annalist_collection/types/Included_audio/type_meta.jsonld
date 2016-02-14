@@ -1,0 +1,19 @@
+{
+  "rdfs:label": "Included audio (internal type)",
+  "rdfs:comment": "Reference to included (uploaded, imported or linked) audio clip",
+  "annal:field_aliases": [],
+  "annal:type_id": "_type",
+  "annal:supertype_uris": [],
+  "annal:uri": "coll:Included_audio",
+  "annal:type_list": "_list/Included_audio",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Included_audio",
+  "@id": "./",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_view": "_view/Included_audio"
+}
