@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Whistle",
-  "rdfs:comment": "Whistle player",
-  "annal:type_id": "Role",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Whistles",
-  "@id": "./",
+  "@id": "Role/Whistles",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Whistles",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Whistle player",
+  "rdfs:label": "Whistle"
 }

@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_user/stevenbenford",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:id": "stevenbenford",
+  "annal:type": "annal:User",
+  "annal:type_id": "_user",
+  "annal:user_permission": [
+    "VIEW",
+    "CREATE",
+    "UPDATE",
+    "DELETE",
+    "CONFIG"
+  ],
+  "annal:user_uri": "mailto:steven.benford@gmail.com",
+  "rdfs:comment": "",
+  "rdfs:label": "Steven Benford"
+}

@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Band - folk/roots",
-  "rdfs:comment": "Folk/roots band",
-  "annal:type_id": "Role",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Band_folk_roots",
-  "@id": "./",
+  "@id": "Role/Band_folk_roots",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Band_folk_roots",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Folk/roots band",
+  "rdfs:label": "Band - folk/roots"
 }

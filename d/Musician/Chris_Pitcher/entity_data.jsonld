@@ -1,18 +1,11 @@
 {
-  "rdfs:label": "Chris Pitcher",
-  "rdfs:comment": "Bass player with Phil Langran",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Musician",
-  "coll:performs_role": [
-    {
-      "@id": "Role/Bass"
-    }
-  ],
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Chris_Pitcher",
-  "@id": "./",
+  "@id": "Musician/Chris_Pitcher",
   "@type": [
     "coll:Musician",
     "prov:Entity",
@@ -21,5 +14,16 @@
     "crm:E77_Persistent_Item",
     "annal:EntityData"
   ],
-  "annal:type": "coll:Musician"
+  "annal:id": "Chris_Pitcher",
+  "annal:type": "coll:Musician",
+  "annal:type_id": "Musician",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Bass"
+    }
+  ],
+  "entity:seeAlso_r": [],
+  "foaf:name": "Chris Pitcher",
+  "rdfs:comment": "Bass player with Phil Langran",
+  "rdfs:label": "Chris Pitcher"
 }

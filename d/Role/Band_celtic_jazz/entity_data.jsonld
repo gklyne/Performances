@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Band - celtic/jazz fusion",
-  "rdfs:comment": "Band - celtic/jazz fusion",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
-  "annal:id": "Band_celtic_jazz",
-  "@id": "./",
+  "@id": "Role/Band_celtic_jazz",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Band_celtic_jazz",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Band - celtic/jazz fusion",
+  "rdfs:label": "Band - celtic/jazz fusion"
 }

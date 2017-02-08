@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Vocals",
-  "rdfs:comment": "Vocals",
-  "annal:type_id": "Role",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Vocalist",
-  "@id": "./",
+  "@id": "Role/Vocalist",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Vocalist",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Vocals",
+  "rdfs:label": "Vocals"
 }

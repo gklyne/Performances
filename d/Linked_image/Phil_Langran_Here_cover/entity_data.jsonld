@@ -1,17 +1,21 @@
 {
-  "@id": "./",
-  "rdfs:label": "Phil Langran: Here - cover photo",
-  "rdfs:comment": "Phil Langran: Here - cover photo",
-  "annal:type_id": "Linked_image",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Phil_Langran_Here_cover",
-  "coll:linked_image": "http://s3.amazonaws.com/content.sitezoogle.com/u/36164/e5f1a8d0aca46fda3d565bb6297f8ba276b90a8c/large/78629.jpg?1373666952",
+  "@id": "Linked_image/Phil_Langran_Here_cover",
   "@type": [
     "coll:Linked_image",
     "coll:Included_image",
     "annal:EntityData"
   ],
-  "annal:type": "coll:Linked_image"
+  "annal:id": "Phil_Langran_Here_cover",
+  "annal:type": "coll:Linked_image",
+  "annal:type_id": "Linked_image",
+  "coll:included_image": "http://s3.amazonaws.com/content.sitezoogle.com/u/36164/e5f1a8d0aca46fda3d565bb6297f8ba276b90a8c/large/78629.jpg?1373666952",
+  "coll:linked_image": "http://s3.amazonaws.com/content.sitezoogle.com/u/36164/e5f1a8d0aca46fda3d565bb6297f8ba276b90a8c/large/78629.jpg?1373666952",
+  "rdfs:comment": "Phil Langran: Here - cover photo",
+  "rdfs:label": "Phil Langran: Here - cover photo"
 }

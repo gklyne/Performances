@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Flute",
-  "rdfs:comment": "Flute player",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
-  "annal:id": "Flute",
-  "@id": "./",
+  "@id": "Role/Flute",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Flute",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Flute player",
+  "rdfs:label": "Flute"
 }

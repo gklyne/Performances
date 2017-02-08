@@ -1,18 +1,21 @@
 {
-  "rdfs:label": "Phil Langran Band members",
-  "rdfs:comment": "Phil Langran Band members",
-  "annal:type_id": "Linked_image",
-  "coll:included_image": "http://content.sitezoogle.com/u/36164/8cb355237b9b16cc54754ee5bb6f156a8fbb5022/photo/1568453.jpg?1380143696",
-  "coll:linked_image": "http://content.sitezoogle.com/u/36164/8cb355237b9b16cc54754ee5bb6f156a8fbb5022/photo/1568453.jpg?1380143696",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Phil_Langran_band_members",
-  "@id": "./",
+  "@id": "Linked_image/Phil_Langran_band_members",
   "@type": [
     "coll:Linked_image",
     "coll:Included_image",
     "annal:EntityData"
   ],
-  "annal:type": "coll:Linked_image"
+  "annal:id": "Phil_Langran_band_members",
+  "annal:type": "coll:Linked_image",
+  "annal:type_id": "Linked_image",
+  "coll:included_image": "http://content.sitezoogle.com/u/36164/8cb355237b9b16cc54754ee5bb6f156a8fbb5022/photo/1568453.jpg?1380143696",
+  "coll:linked_image": "http://content.sitezoogle.com/u/36164/8cb355237b9b16cc54754ee5bb6f156a8fbb5022/photo/1568453.jpg?1380143696",
+  "rdfs:comment": "Phil Langran Band members",
+  "rdfs:label": "Phil Langran Band members"
 }

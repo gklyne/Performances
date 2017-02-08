@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_group/Linked_image_r",
+  "@type": [
+    "annal:Field_group"
+  ],
+  "annal:group_fields": [
+    {
+      "annal:field_id": "_field/Linked_image_m",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    }
+  ],
+  "annal:id": "Linked_image_r",
+  "annal:record_type": "coll:Linked_image",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "rdfs:comment": "Reference to linkeded audio fields",
+  "rdfs:label": "Linked image fields"
+}

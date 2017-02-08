@@ -1,18 +1,21 @@
 {
-  "rdfs:label": "West Bridgford, Nottingham",
-  "rdfs:comment": "West Bridgford, Nottingham, location for many Phil Langran recordings.",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Place",
-  "crm:P89_falls_within": "Place/Nottingham",
-  "crm:P89i_contains_repeat": [],
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "West_Bridgford",
-  "@id": "./",
+  "@id": "Place/West_Bridgford",
   "@type": [
     "crm:E53_Place",
     "annal:EntityData"
   ],
-  "annal:type": "crm:E53_Place"
+  "annal:id": "West_Bridgford",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
+  "crm:P89_falls_within": "Place/Nottingham",
+  "crm:P89i_contains_repeat": [],
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "West Bridgford, Nottingham, location for many Phil Langran recordings.",
+  "rdfs:label": "West Bridgford, Nottingham"
 }

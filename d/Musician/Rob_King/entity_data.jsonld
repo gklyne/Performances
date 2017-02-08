@@ -1,11 +1,21 @@
 {
-  "rdfs:label": "Rob King",
-  "rdfs:comment": "Rob King",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "http://www.carmina.co.uk/intro.htm"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
+  "@id": "Musician/Rob_King",
+  "@type": [
+    "coll:Musician",
+    "prov:Entity",
+    "prov:Agent",
+    "crm:E39_Actor",
+    "crm:E77_Persistent_Item",
+    "annal:EntityData"
+  ],
+  "annal:id": "Rob_King",
+  "annal:type": "coll:Musician",
   "annal:type_id": "Musician",
   "coll:performs_role": [
     {
@@ -16,18 +26,12 @@
     }
   ],
   "crm:P107_has_current_or_former_member": [],
-  "@context": [
-    "../../coll_context.jsonld"
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.carmina.co.uk/intro.htm"
+    }
   ],
-  "annal:id": "Rob_King",
-  "@id": "./",
-  "@type": [
-    "coll:Musician",
-    "prov:Entity",
-    "prov:Agent",
-    "crm:E39_Actor",
-    "crm:E77_Persistent_Item",
-    "annal:EntityData"
-  ],
-  "annal:type": "coll:Musician"
+  "foaf:name": "Rob King",
+  "rdfs:comment": "Rob King",
+  "rdfs:label": "Rob King"
 }

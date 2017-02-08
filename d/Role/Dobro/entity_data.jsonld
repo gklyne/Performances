@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Dobro",
-  "rdfs:comment": "Dobro player.\r\n\r\nA Dobro is a kind of \"resonator guitar\".\r\n\r\nSee:\r\n\r\n* https://en.wikipedia.org/wiki/Dobro\r\n* https://en.wikipedia.org/wiki/Resonator_guitar\r\n",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
-  "annal:id": "Dobro",
-  "@id": "./",
+  "@id": "Role/Dobro",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Dobro",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Dobro player.\r\n\r\nA Dobro is a kind of \"resonator guitar\".\r\n\r\nSee:\r\n\r\n* https://en.wikipedia.org/wiki/Dobro\r\n* https://en.wikipedia.org/wiki/Resonator_guitar\r\n",
+  "rdfs:label": "Dobro"
 }

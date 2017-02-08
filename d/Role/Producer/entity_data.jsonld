@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Producer",
-  "rdfs:comment": "Producer",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
-  "annal:id": "Producer",
-  "@id": "./",
+  "@id": "Role/Producer",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Producer",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Producer",
+  "rdfs:label": "Producer"
 }

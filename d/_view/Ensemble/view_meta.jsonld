@@ -1,0 +1,66 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_view/Ensemble",
+  "@type": [
+    "annal:View"
+  ],
+  "annal:id": "Ensemble",
+  "annal:open_view": true,
+  "annal:record_type": "crm:E74_Group",
+  "annal:type": "annal:View",
+  "annal:type_id": "_view",
+  "annal:view_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Name",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Entity_comment",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Role_r",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Ensemble_r",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Recording_r",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/See_also_r",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Included_image_r",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    }
+  ],
+  "rdfs:comment": "View of ensemble",
+  "rdfs:label": "Ensemble"
+}

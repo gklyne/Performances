@@ -1,18 +1,21 @@
 {
-  "rdfs:label": "Bristol",
-  "rdfs:comment": "Bristol",
-  "entity:seeAlso_r": [],
-  "crm:P89i_contains_repeat": [],
-  "annal:type_id": "Place",
-  "crm:P89_falls_within": "",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Bristol",
-  "@id": "./",
+  "@id": "Place/Bristol",
   "@type": [
     "crm:E53_Place",
     "annal:EntityData"
   ],
-  "annal:type": "crm:E53_Place"
+  "annal:id": "Bristol",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
+  "crm:P89_falls_within": "",
+  "crm:P89i_contains_repeat": [],
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "Bristol",
+  "rdfs:label": "Bristol"
 }

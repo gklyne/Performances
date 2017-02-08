@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_user/alan",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:id": "alan",
+  "annal:type": "annal:User",
+  "annal:type_id": "_user",
+  "annal:user_permission": [
+    "VIEW",
+    "CREATE",
+    "UPDATE",
+    "DELETE",
+    "CONFIG"
+  ],
+  "annal:user_uri": "mailto:drmilgi@gmail.com",
+  "rdfs:comment": "",
+  "rdfs:label": "Alan Chamberlain"
+}

@@ -1,16 +1,20 @@
 {
-  "rdfs:label": "Phil Langran: Juke box love songs",
-  "rdfs:comment": "Phil Langran: Juke box love songs",
-  "coll:audio_clip": "http://phillangranband.com/track/90725/juke-box-love-song?feature_id=43928",
-  "annal:type_id": "Linked_audio",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Phil_Langran_Juke_box_love_songs",
-  "@id": "./",
+  "@id": "Linked_audio/Phil_Langran_Juke_box_love_songs",
   "@type": [
     "coll:Linked_audio",
     "annal:EntityData"
   ],
-  "annal:type": "coll:Linked_audio"
+  "annal:id": "Phil_Langran_Juke_box_love_songs",
+  "annal:type": "coll:Linked_audio",
+  "annal:type_id": "Linked_audio",
+  "coll:audio_clip": "http://phillangranband.com/track/90725/juke-box-love-song?feature_id=43928",
+  "coll:included_audio": "",
+  "rdfs:comment": "Phil Langran: Juke box love songs",
+  "rdfs:label": "Phil Langran: Juke box love songs"
 }

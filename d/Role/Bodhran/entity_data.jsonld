@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Bodhran",
-  "rdfs:comment": "Bodhran",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
-  "annal:id": "Bodhran",
-  "@id": "./",
+  "@id": "Role/Bodhran",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Bodhran",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Bodhran",
+  "rdfs:label": "Bodhran"
 }

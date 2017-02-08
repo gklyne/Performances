@@ -1,18 +1,21 @@
 {
-  "rdfs:label": "Nottingham",
-  "rdfs:comment": "Nottingham",
-  "entity:seeAlso_r": [],
-  "crm:P89i_contains_repeat": [],
-  "annal:type_id": "Place",
-  "crm:P89_falls_within": "",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Nottingham",
-  "@id": "./",
+  "@id": "Place/Nottingham",
   "@type": [
     "crm:E53_Place",
     "annal:EntityData"
   ],
-  "annal:type": "crm:E53_Place"
+  "annal:id": "Nottingham",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
+  "crm:P89_falls_within": "",
+  "crm:P89i_contains_repeat": [],
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "Nottingham",
+  "rdfs:label": "Nottingham"
 }

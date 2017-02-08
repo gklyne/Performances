@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/Included_image",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "Enum_render_type/RefImage",
+  "annal:field_value_mode": "Enum_value_mode/Value_direct",
+  "annal:field_value_type": "coll:Included_image",
+  "annal:group_ref": "",
+  "annal:id": "Included_image",
+  "annal:placeholder": "(Image reference - edit via linked, imported or uploaded image view)",
+  "annal:property_uri": "coll:included_image",
+  "annal:repeat_label_add": "",
+  "annal:repeat_label_delete": "",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "Included image (linked, imported or uploaded)",
+  "rdfs:label": "Included image"
+}

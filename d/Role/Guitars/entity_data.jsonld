@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Accoustic Guitar",
-  "rdfs:comment": "Accoustic Guitar",
-  "annal:type_id": "Role",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Guitars",
-  "@id": "./",
+  "@id": "Role/Guitars",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Guitars",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Accoustic Guitar",
+  "rdfs:label": "Accoustic Guitar"
 }

@@ -1,23 +1,33 @@
 {
-  "rdfs:label": "Poster for Carmina and Phil Langran at The Maze, Nottingham",
-  "rdfs:comment": "Poster for Carmina and Phil Langran at The Maze, Nottingham",
-  "coll:uploaded_image": {
-    "upload_name": "Uploaded_image",
-    "uploaded_size": 1558316,
-    "resource_name": "Uploaded_image.png",
-    "uploaded_file": "Maze poster.png",
-    "resource_type": "image/png"
-  },
-  "annal:type_id": "Uploaded_image",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Carmina_Phil_Langran_poster",
-  "@id": "./",
+  "@id": "Uploaded_image/Carmina_Phil_Langran_poster",
   "@type": [
     "coll:Uploaded_image",
     "coll:Included_image",
     "annal:EntityData"
   ],
-  "annal:type": "coll:Uploaded_image"
+  "annal:id": "Carmina_Phil_Langran_poster",
+  "annal:type": "coll:Uploaded_image",
+  "annal:type_id": "Uploaded_image",
+  "coll:included_image": {
+    "resource_name": "Uploaded_image.png",
+    "resource_type": "image/png",
+    "upload_name": "Uploaded_image",
+    "uploaded_file": "Maze poster.png",
+    "uploaded_size": 1558316
+  },
+  "coll:uploaded_image": {
+    "resource_name": "Uploaded_image.png",
+    "resource_type": "image/png",
+    "upload_name": "Uploaded_image",
+    "uploaded_file": "Maze poster.png",
+    "uploaded_size": 1558316
+  },
+  "rdfs:comment": "Poster for Carmina and Phil Langran at The Maze, Nottingham",
+  "rdfs:label": "Poster for Carmina and Phil Langran at The Maze, Nottingham"
 }

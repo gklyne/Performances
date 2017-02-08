@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_user/matthew",
+  "@type": [
+    "annal:User"
+  ],
+  "annal:id": "matthew",
+  "annal:type": "annal:User",
+  "annal:type_id": "_user",
+  "annal:user_permission": [
+    "VIEW",
+    "CREATE",
+    "UPDATE",
+    "DELETE",
+    "CONFIG"
+  ],
+  "annal:user_uri": "mailto:matthew.wilcoxson@gmail.com",
+  "rdfs:comment": "Matthew Wilcoxson",
+  "rdfs:label": "Matthew Wilcoxson"
+}

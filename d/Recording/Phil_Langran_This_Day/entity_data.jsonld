@@ -1,35 +1,11 @@
 {
-  "rdfs:label": "Phil Langran: This Day (2005)",
-  "rdfs:comment": "Track list\r\n\r\n1. County Cork to Downeast Maine 03:37\r\n2. Dunmanus Bay 03:25\r\n3. You'd Be Right 02:48\r\n4. Girl on the Shore 03:00\r\n5. The Point of No Return 02:54\r\n6. Crossing Brooklyn Bridge 02:32\r\n7. Down on Your Luck 03:03\r\n8. Arkaroola 02:43\r\n9. All American Orphan 03:04\r\n10. The Reckoning 02:36\r\n11. Song for a Dark Girl 02:16\r\n12. All But Time 03:07\r\n13. The Pride of St James 03:10\r\n14. Return To The Point of No Return 02:54\r\n\r\n",
-  "entity:seeAlso_r": [
-    {
-      "rdfs:seeAlso": "http://phillangranband.com/this-day-2005"
-    }
-  ],
-  "coll:linked_images": [
-    {
-      "coll:linked_image": "Linked_image/Phil_Langran_This_Day_cover"
-    }
-  ],
-  "annal:type_id": "Recording",
-  "annal:missing_field": "",
-  "prov:hadMember_repeat": [],
-  "mo:records": "Performance/Phil_Langran_This_Day",
-  "@id": "./",
-  "coll:linked_audio_clips": [
-    {
-      "coll:linked_audio_m": "Linked_audio/Phil_Langran_county_cork"
-    }
-  ],
-  "coll:included_image_r": [
-    {
-      "coll:included_image_m": "Linked_image/Phil_Langran_This_Day_cover"
-    }
-  ],
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Phil_Langran_This_Day",
+  "@id": "Recording/Phil_Langran_This_Day",
   "@type": [
     "frbroo:F26_Recording",
     "prov:Entity",
@@ -40,5 +16,32 @@
     "mo:MusicalExpression",
     "annal:EntityData"
   ],
-  "annal:type": "frbroo:F26_Recording"
+  "annal:id": "Phil_Langran_This_Day",
+  "annal:missing_field": "",
+  "annal:type": "frbroo:F26_Recording",
+  "annal:type_id": "Recording",
+  "coll:included_image_r": [
+    {
+      "coll:included_image_m": "Linked_image/Phil_Langran_This_Day_cover"
+    }
+  ],
+  "coll:linked_audio_clips": [
+    {
+      "coll:linked_audio_m": "Linked_audio/Phil_Langran_county_cork"
+    }
+  ],
+  "coll:linked_images": [
+    {
+      "coll:linked_image": "Linked_image/Phil_Langran_This_Day_cover"
+    }
+  ],
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://phillangranband.com/this-day-2005"
+    }
+  ],
+  "mo:records": "Performance/Phil_Langran_This_Day",
+  "prov:hadMember_repeat": [],
+  "rdfs:comment": "Track list\r\n\r\n1. County Cork to Downeast Maine 03:37\r\n2. Dunmanus Bay 03:25\r\n3. You'd Be Right 02:48\r\n4. Girl on the Shore 03:00\r\n5. The Point of No Return 02:54\r\n6. Crossing Brooklyn Bridge 02:32\r\n7. Down on Your Luck 03:03\r\n8. Arkaroola 02:43\r\n9. All American Orphan 03:04\r\n10. The Reckoning 02:36\r\n11. Song for a Dark Girl 02:16\r\n12. All But Time 03:07\r\n13. The Pride of St James 03:10\r\n14. Return To The Point of No Return 02:54\r\n\r\n",
+  "rdfs:label": "Phil Langran: This Day (2005)"
 }

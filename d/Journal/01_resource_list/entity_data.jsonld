@@ -1,6 +1,26 @@
 {
-  "rdfs:label": "List of possible resources",
-  "rdfs:comment": "This journal entry has been created to collect a list of possible resources for creating a Performance DMO for the Carmina/Phil Langran performance in Nottingham on 17 Jan 2016.\r\n\r\nInformation about available resources can be:\r\n\r\n- added as new journal entries (Click \"New\" on the [List of journal entries](/annalist/c/Performances/d/Journal/) page)\r\n\r\nOr they can be added to this Journal page after clicking the \"Edit\" button below.\r\n\r\n- added to this text box ([MarkDown](https://daringfireball.net/projects/markdown/) supported)\r\n- links added below under \"Web Resources\" (use \"Add Web Resource\" then click on the \"+\" button to add details)\r\n- images and audio clips can be uploaded similarly below\r\n\r\n\r\n\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Journal/01_resource_list",
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "annal:id": "01_resource_list",
+  "annal:type": "coll:Journal",
+  "annal:type_id": "Journal",
+  "coll:audio_clips": [],
+  "coll:date": "2016-01-07",
+  "coll:images": [
+    {
+      "coll:Image": "Uploaded_image/upload_image"
+    }
+  ],
+  "coll:location": "",
   "coll:resources": [
     {
       "coll:web_resource_m": "Web_resource/The_Maze_Nottingham"
@@ -15,23 +35,6 @@
       "coll:web_resource_m": "Web_resource/Phil_Langran_band"
     }
   ],
-  "coll:location": "",
-  "annal:type_id": "Journal",
-  "coll:audio_clips": [],
-  "coll:date": "2016-01-07",
-  "coll:images": [
-    {
-      "coll:Image": "Uploaded_image/upload_image"
-    }
-  ],
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
-  "annal:id": "01_resource_list",
-  "@id": "./",
-  "@type": [
-    "coll:Journal",
-    "annal:EntityData"
-  ],
-  "annal:type": "coll:Journal"
+  "rdfs:comment": "This journal entry has been created to collect a list of possible resources for creating a Performance DMO for the Carmina/Phil Langran performance in Nottingham on 17 Jan 2016.\r\n\r\nInformation about available resources can be:\r\n\r\n- added as new journal entries (Click \"New\" on the [List of journal entries](/annalist/c/Performances/d/Journal/) page)\r\n\r\nOr they can be added to this Journal page after clicking the \"Edit\" button below.\r\n\r\n- added to this text box ([MarkDown](https://daringfireball.net/projects/markdown/) supported)\r\n- links added below under \"Web Resources\" (use \"Add Web Resource\" then click on the \"+\" button to add details)\r\n- images and audio clips can be uploaded similarly below\r\n\r\n\r\n\r\n",
+  "rdfs:label": "List of possible resources"
 }

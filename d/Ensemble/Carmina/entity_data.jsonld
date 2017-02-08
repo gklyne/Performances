@@ -1,13 +1,21 @@
 {
-  "rdfs:label": "Carmina",
-  "rdfs:comment": "Their music is an intoxicating blend of Celtic-inspired themes and jazz improvisation, woven together in powerful original songs.\r\n",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "http://www.carmina.co.uk/"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
+  "@id": "Ensemble/Carmina",
+  "@type": [
+    "crm:E74_Group",
+    "prov:Entity",
+    "prov:Agent",
+    "crm:E39_Actor",
+    "annal:EntityData"
+  ],
+  "annal:id": "Carmina",
+  "annal:type": "crm:E74_Group",
   "annal:type_id": "Ensemble",
-  "prov:hadRole": "",
   "coll:images": [
     {
       "coll:Image": "Uploaded_image/Carmina_Pippa_Rob_live"
@@ -17,33 +25,6 @@
     {
       "@id": "Role/Band_celtic_jazz"
     }
-  ],
-  "annal:type": "crm:E74_Group",
-  "crm:P107_has_current_or_former_member": [
-    {
-      "@id": "Musician/Pippa_Marland"
-    },
-    {
-      "@id": "Musician/Rob_King"
-    },
-    {
-      "@id": "Musician/Gina_Griffin"
-    },
-    {
-      "@id": "Musician/Geoff_Castle"
-    }
-  ],
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
-  "annal:id": "Carmina",
-  "@id": "./",
-  "@type": [
-    "crm:E74_Group",
-    "prov:Entity",
-    "prov:Agent",
-    "crm:E39_Actor",
-    "annal:EntityData"
   ],
   "coll:recorded_repeat": [
     {
@@ -58,5 +39,27 @@
     {
       "coll:recorded": "Recording/Carmina_Weather_in_Heart"
     }
-  ]
+  ],
+  "crm:P107_has_current_or_former_member": [
+    {
+      "@id": "Musician/Pippa_Marland"
+    },
+    {
+      "@id": "Musician/Rob_King"
+    },
+    {
+      "@id": "Musician/Gina_Griffin"
+    },
+    {
+      "@id": "Musician/Geoff_Castle"
+    }
+  ],
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.carmina.co.uk/"
+    }
+  ],
+  "prov:hadRole": "",
+  "rdfs:comment": "Their music is an intoxicating blend of Celtic-inspired themes and jazz improvisation, woven together in powerful original songs.\r\n",
+  "rdfs:label": "Carmina"
 }

@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Electric guitar",
-  "rdfs:comment": "Electric guitarist",
-  "annal:type_id": "Role",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Electric_guitar",
-  "@id": "./",
+  "@id": "Role/Electric_guitar",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Electric_guitar",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Electric guitarist",
+  "rdfs:label": "Electric guitar"
 }

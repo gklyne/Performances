@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Violin",
-  "rdfs:comment": "Violin",
-  "annal:type_id": "Role",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Violin",
-  "@id": "./",
+  "@id": "Role/Violin",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Violin",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Violin",
+  "rdfs:label": "Violin"
 }

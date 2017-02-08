@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Pianist",
-  "rdfs:comment": "Pianist",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
-  "annal:id": "Piano",
-  "@id": "./",
+  "@id": "Role/Piano",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Piano",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Pianist",
+  "rdfs:label": "Pianist"
 }

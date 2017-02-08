@@ -1,22 +1,11 @@
 {
-  "rdfs:label": "Milli Galgut",
-  "rdfs:comment": "Violin teacher and violinist with Phil Langran Band and others",
-  "entity:seeAlso_r": [
-    {
-      "rdfs:seeAlso": "https://www.facebook.com/Alamootie-111454398882808/info"
-    }
-  ],
-  "annal:type_id": "Musician",
-  "coll:performs_role": [
-    {
-      "@id": "Role/Violin"
-    }
-  ],
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Milli_Galgut",
-  "@id": "./",
+  "@id": "Musician/Milli_Galgut",
   "@type": [
     "coll:Musician",
     "prov:Entity",
@@ -25,5 +14,20 @@
     "crm:E77_Persistent_Item",
     "annal:EntityData"
   ],
-  "annal:type": "coll:Musician"
+  "annal:id": "Milli_Galgut",
+  "annal:type": "coll:Musician",
+  "annal:type_id": "Musician",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Violin"
+    }
+  ],
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://www.facebook.com/Alamootie-111454398882808/info"
+    }
+  ],
+  "foaf:name": "Milli Galgut",
+  "rdfs:comment": "Violin teacher and violinist with Phil Langran Band and others",
+  "rdfs:label": "Milli Galgut"
 }

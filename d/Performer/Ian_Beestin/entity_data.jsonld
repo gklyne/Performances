@@ -1,6 +1,25 @@
 {
-  "rdfs:label": "Ian Beestin",
-  "rdfs:comment": "Drummer\r\n\r\nPlayed with Phil Langran Band on Juke Box Love Songs, Leaving Blues, Border Crossings and Lovers' Laments.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Performer/Ian_Beestin",
+  "@type": [
+    "crm:E39_Actor",
+    "prov:Entity",
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:id": "Ian_Beestin",
+  "annal:type": "crm:E39_Actor",
+  "annal:type_id": "Performer",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Drums"
+    }
+  ],
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://twitter.com/ianbeestin"
@@ -9,22 +28,6 @@
       "rdfs:seeAlso": "https://www.facebook.com/ian.beestin"
     }
   ],
-  "annal:type_id": "Performer",
-  "coll:performs_role": [
-    {
-      "@id": "Role/Drums"
-    }
-  ],
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
-  "annal:id": "Ian_Beestin",
-  "@id": "./",
-  "@type": [
-    "crm:E39_Actor",
-    "prov:Entity",
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "crm:E39_Actor"
+  "rdfs:comment": "Drummer\r\n\r\nPlayed with Phil Langran Band on Juke Box Love Songs, Leaving Blues, Border Crossings and Lovers' Laments.",
+  "rdfs:label": "Ian Beestin"
 }

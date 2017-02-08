@@ -1,14 +1,50 @@
 {
-  "rdfs:label": "Phil Langran band",
-  "rdfs:comment": "Nottingham songwriter Phil Langran\u2019s songs are engaging, literate and accessible. His versatile band creates a unique sound firmly rooted in folk, while interweaving elements of American, Celtic, blues and jazz traditions. Phil has created his own genre, where Harlem nights and New York cityscapes rub shoulders with the West Coast of Ireland and scenes from Werner Herzog\u2019s films.\r\n\r\nDescribed on their web site as \"Folk & Blues, Celtic & Americana\".\r\n\r\nPhil (vocals and acoustic guitar), Steve Benford (acoustic guitar, banjo, vocals), Mark Walker (bass, vocals), Frank McCarthy (electric guitar, vocals) and Pippa Marland (sax, whistle, vocals) ",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "http://www.phillangranband.com/"
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Ensemble/Phil_Langran_band",
+  "@type": [
+    "crm:E74_Group",
+    "prov:Entity",
+    "prov:Agent",
+    "crm:E39_Actor",
+    "annal:EntityData"
+  ],
+  "annal:id": "Phil_Langran_band",
+  "annal:type": "crm:E74_Group",
+  "annal:type_id": "Ensemble",
+  "coll:images": [],
+  "coll:included_image_r": [
+    {
+      "coll:included_image_m": "Linked_image/Phil_Langran_band_members"
     },
     {
-      "rdfs:seeAlso": "http://phillangranband.com/albums/297532"
+      "coll:included_image_m": "Uploaded_image/Carmina_Phil_Langran_poster"
     }
   ],
+  "coll:performs_role": [
+    {
+      "@id": "Role/Band_folk_roots"
+    }
+  ],
+  "coll:recorded_repeat": [
+    {
+      "coll:recorded": "Recording/Phil_Langran_This_Day"
+    },
+    {
+      "coll:recorded": "Recording/Phil_Langran_Here"
+    },
+    {
+      "coll:recorded": "Recording/Phil_Langran_Juke_Box_Love_Songs"
+    },
+    {
+      "coll:recorded": "Recording/Phil_Langran_Still_the_Heart"
+    }
+  ],
+  "coll:uploaded_image_r": [],
   "crm:P107_has_current_or_former_member": [
     {
       "@id": "Musician/Phil_Langran"
@@ -26,47 +62,14 @@
       "@id": "Musician/Pippa_Marland"
     }
   ],
-  "coll:performs_role": [
+  "entity:seeAlso_r": [
     {
-      "@id": "Role/Band_folk_roots"
+      "rdfs:seeAlso": "http://www.phillangranband.com/"
+    },
+    {
+      "rdfs:seeAlso": "http://phillangranband.com/albums/297532"
     }
   ],
-  "@id": "./",
-  "coll:included_image_r": [
-    {
-      "coll:included_image_m": "Linked_image/Phil_Langran_band_members"
-    },
-    {
-      "coll:included_image_m": "Uploaded_image/Carmina_Phil_Langran_poster"
-    }
-  ],
-  "@type": [
-    "crm:E74_Group",
-    "prov:Entity",
-    "prov:Agent",
-    "crm:E39_Actor",
-    "annal:EntityData"
-  ],
-  "coll:uploaded_image_r": [],
-  "annal:type": "crm:E74_Group",
-  "annal:type_id": "Ensemble",
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
-  "annal:id": "Phil_Langran_band",
-  "coll:images": [],
-  "coll:recorded_repeat": [
-    {
-      "coll:recorded": "Recording/Phil_Langran_This_Day"
-    },
-    {
-      "coll:recorded": "Recording/Phil_Langran_Here"
-    },
-    {
-      "coll:recorded": "Recording/Phil_Langran_Juke_Box_Love_Songs"
-    },
-    {
-      "coll:recorded": "Recording/Phil_Langran_Still_the_Heart"
-    }
-  ]
+  "rdfs:comment": "Nottingham songwriter Phil Langran\u2019s songs are engaging, literate and accessible. His versatile band creates a unique sound firmly rooted in folk, while interweaving elements of American, Celtic, blues and jazz traditions. Phil has created his own genre, where Harlem nights and New York cityscapes rub shoulders with the West Coast of Ireland and scenes from Werner Herzog\u2019s films.\r\n\r\nDescribed on their web site as \"Folk & Blues, Celtic & Americana\".\r\n\r\nPhil (vocals and acoustic guitar), Steve Benford (acoustic guitar, banjo, vocals), Mark Walker (bass, vocals), Frank McCarthy (electric guitar, vocals) and Pippa Marland (sax, whistle, vocals) ",
+  "rdfs:label": "Phil Langran band"
 }

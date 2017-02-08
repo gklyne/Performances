@@ -1,14 +1,21 @@
 {
-  "rdfs:label": "Frank McCarthy",
-  "rdfs:comment": "Performs electric guitar and vocals for the Phil Langran band.\r\n\r\nAlso vocal arranger and producer for (at least one of) their albums.\r\n\r\n",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "http://www.phillangranband.com/"
+      "@base": "../../"
     },
-    {
-      "rdfs:seeAlso": "https://folkwitrecords.bandcamp.com/album/jukebox-love-songs-leaving-blues-border-crossings-lovers-laments"
-    }
+    "../../coll_context.jsonld"
   ],
+  "@id": "Musician/Frank_McCarthy",
+  "@type": [
+    "coll:Musician",
+    "prov:Entity",
+    "prov:Agent",
+    "crm:E39_Actor",
+    "crm:E77_Persistent_Item",
+    "annal:EntityData"
+  ],
+  "annal:id": "Frank_McCarthy",
+  "annal:type": "coll:Musician",
   "annal:type_id": "Musician",
   "coll:performs_role": [
     {
@@ -24,18 +31,15 @@
       "@id": "Role/Producer"
     }
   ],
-  "@context": [
-    "../../coll_context.jsonld"
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.phillangranband.com/"
+    },
+    {
+      "rdfs:seeAlso": "https://folkwitrecords.bandcamp.com/album/jukebox-love-songs-leaving-blues-border-crossings-lovers-laments"
+    }
   ],
-  "annal:id": "Frank_McCarthy",
-  "@id": "./",
-  "@type": [
-    "coll:Musician",
-    "prov:Entity",
-    "prov:Agent",
-    "crm:E39_Actor",
-    "crm:E77_Persistent_Item",
-    "annal:EntityData"
-  ],
-  "annal:type": "coll:Musician"
+  "foaf:name": "Frank McCarthy",
+  "rdfs:comment": "Performs electric guitar and vocals for the Phil Langran band.\r\n\r\nAlso vocal arranger and producer for (at least one of) their albums.\r\n\r\n",
+  "rdfs:label": "Frank McCarthy"
 }

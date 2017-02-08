@@ -1,19 +1,11 @@
 {
-  "rdfs:label": "Carmina: On a Quiet Street",
-  "rdfs:comment": "On a Quiet Street\r\n\r\nThe Carmina Trio, Pippa, Rob & Pete Jacobsen plus Special guest Diarmaid Moynihan (Uilleann Pipes, Irish Whistle) recorded live at the Meeting Place, Midleton, Co. Cork & produced by Rob King\r\n\r\nTrack Listing:\r\n\r\n1. Bird Of Paradise\r\n2. Crazy Love\r\n3. Red River Valley, Girl\r\n4. Raglan Road\r\n5. The Leaving Wakes\r\n6. Down to Land\r\n7. Lord Franklin (mp3)\r\n8. Concorde\r\n9. You Turn Me On, I'm a Radio\r\n10. Mountains of Prayer\r\n11. Mireia\r\n12. River\r\n\r\n'On a Quiet Street' was recorded at two concerts (April 2nd/3rd 2002) at the Meeting Place, Midleton, Co. Cork featuring the Carmina Trio, Pippa, Rob & Pete Jacobsen plus Special Guest\r\nDiarmaid Moynihan (Uilleann Pipes, Irish Whistle)\r\n\r\nThe album highlights songs from the band's original repertoire the band hope it will prove to be a fitting testimony to the talent and constant and continuing inspiration of the much missed Pete Jacobsen who sadly died shortly after the recording.\r\n",
-  "entity:seeAlso_r": [
-    {
-      "rdfs:seeAlso": "http://www.carmina.co.uk/quietstreetinfo.htm"
-    }
-  ],
-  "annal:type_id": "Recording",
-  "prov:hadMember_repeat": [],
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "mo:records": "",
-  "annal:id": "Carmina_Quiet_Street",
-  "@id": "./",
+  "@id": "Recording/Carmina_Quiet_Street",
   "@type": [
     "frbroo:F26_Recording",
     "prov:Entity",
@@ -24,5 +16,16 @@
     "mo:MusicalExpression",
     "annal:EntityData"
   ],
-  "annal:type": "frbroo:F26_Recording"
+  "annal:id": "Carmina_Quiet_Street",
+  "annal:type": "frbroo:F26_Recording",
+  "annal:type_id": "Recording",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.carmina.co.uk/quietstreetinfo.htm"
+    }
+  ],
+  "mo:records": "",
+  "prov:hadMember_repeat": [],
+  "rdfs:comment": "On a Quiet Street\r\n\r\nThe Carmina Trio, Pippa, Rob & Pete Jacobsen plus Special guest Diarmaid Moynihan (Uilleann Pipes, Irish Whistle) recorded live at the Meeting Place, Midleton, Co. Cork & produced by Rob King\r\n\r\nTrack Listing:\r\n\r\n1. Bird Of Paradise\r\n2. Crazy Love\r\n3. Red River Valley, Girl\r\n4. Raglan Road\r\n5. The Leaving Wakes\r\n6. Down to Land\r\n7. Lord Franklin (mp3)\r\n8. Concorde\r\n9. You Turn Me On, I'm a Radio\r\n10. Mountains of Prayer\r\n11. Mireia\r\n12. River\r\n\r\n'On a Quiet Street' was recorded at two concerts (April 2nd/3rd 2002) at the Meeting Place, Midleton, Co. Cork featuring the Carmina Trio, Pippa, Rob & Pete Jacobsen plus Special Guest\r\nDiarmaid Moynihan (Uilleann Pipes, Irish Whistle)\r\n\r\nThe album highlights songs from the band's original repertoire the band hope it will prove to be a fitting testimony to the talent and constant and continuing inspiration of the much missed Pete Jacobsen who sadly died shortly after the recording.\r\n",
+  "rdfs:label": "Carmina: On a Quiet Street"
 }

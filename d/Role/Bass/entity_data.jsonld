@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Bass",
-  "rdfs:comment": "Bass",
-  "annal:type_id": "Role",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Bass",
-  "@id": "./",
+  "@id": "Role/Bass",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Bass",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Bass",
+  "rdfs:label": "Bass"
 }

@@ -1,0 +1,24 @@
+{
+  "@context": [
+    {
+      "@base": "./"
+    },
+    "coll_context.jsonld"
+  ],
+  "@id": "../",
+  "@type": [
+    "annal:Collection"
+  ],
+  "annal:default_list": "Concerts",
+  "annal:default_view_entity": null,
+  "annal:default_view_id": null,
+  "annal:default_view_type": null,
+  "annal:id": "Performances",
+  "annal:inherit_from": "_coll/Performance_defs",
+  "annal:meta_comment": "Performance DMO data, edited by hand - 2016-01-22",
+  "annal:software_version": "0.1.33",
+  "annal:type": "annal:Collection",
+  "annal:type_id": "_coll",
+  "rdfs:comment": "# Performance Digital Music Objects (DMOs)\r\n\r\nThis collection contains data about selected live concert performances that is being used to explore the notion of a Digital Music Object (\"Performance DMO\"), which aims to augment and extend the interaction between musicians giving live performers and their audiences, by providing access to related information and feedback that can be engaged before and after the performance itself.\r\n\r\nLinked data modelling is based loosely on work done previously to describe the [Carolan Guitar](fast-project.annalist.net/annalist/c/Carolan_Guitar/), using a combination of [W3C PROV](http://www.w3.org/TR/prov-overview/), [CIDOC CRM](http://www.cidoc-crm.org/), [Music Ontology](http://musicontology.com/) and <cite>ad hoc</cite> vocabulary terms.\r\n\r\nMost definitions are inherited from a separate Annalist collection, [Performance DMO definitions](/annalist/c/Performance_defs/)",
+  "rdfs:label": "Performance DMO data"
+}

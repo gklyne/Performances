@@ -1,24 +1,27 @@
 {
-  "rdfs:label": "About the FAST project",
-  "rdfs:comment": "The [FAST project](http://www.semanticaudio.ac.uk) \r\nbrings the very latest technologies to bear on the entire recorded music industry, end-to-end, producer to consumer.\r\n\r\nThis demonstrator system aims to explore the application of semantic technologies to aspects of live performances.  The goal is to place individual performances in the context of a wider body of work by the composers and performers who contribute to a performance.  It forms part of an exploration of interactions between physical (real-world) and virtual (online) entities in the context of musical performance.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Journal/02_about_fast_project",
+  "@type": [
+    "coll:Journal",
+    "annal:EntityData"
+  ],
+  "annal:id": "02_about_fast_project",
+  "annal:type": "coll:Journal",
+  "annal:type_id": "Journal",
+  "coll:audio_clips": [],
+  "coll:date": "2016-01-08",
+  "coll:images": [],
+  "coll:location": "Oxford",
   "coll:resources": [
     {
       "coll:web_resource_m": "Web_resource/fast_project"
     }
   ],
-  "coll:location": "Oxford",
-  "annal:type_id": "Journal",
-  "coll:audio_clips": [],
-  "@type": [
-    "coll:Journal",
-    "annal:EntityData"
-  ],
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
-  "coll:date": "2016-01-08",
-  "annal:id": "02_about_fast_project",
-  "@id": "./",
-  "coll:images": [],
-  "annal:type": "coll:Journal"
+  "rdfs:comment": "The [FAST project](http://www.semanticaudio.ac.uk) \r\nbrings the very latest technologies to bear on the entire recorded music industry, end-to-end, producer to consumer.\r\n\r\nThis demonstrator system aims to explore the application of semantic technologies to aspects of live performances.  The goal is to place individual performances in the context of a wider body of work by the composers and performers who contribute to a performance.  It forms part of an exploration of interactions between physical (real-world) and virtual (online) entities in the context of musical performance.",
+  "rdfs:label": "About the FAST project"
 }

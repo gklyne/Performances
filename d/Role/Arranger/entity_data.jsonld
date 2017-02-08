@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Arranger",
-  "rdfs:comment": "Arranger",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
-  "annal:id": "Arranger",
-  "@id": "./",
+  "@id": "Role/Arranger",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Arranger",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Arranger",
+  "rdfs:label": "Arranger"
 }

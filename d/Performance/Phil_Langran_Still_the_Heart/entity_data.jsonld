@@ -1,12 +1,30 @@
 {
-  "rdfs:label": "Phil Langran: Still the Heart (2014)",
-  "rdfs:comment": "Phil Langran: Still the Heart (2014)\r\n\r\nPhil Langran             vocals, acoustic guitar\r\nSteve Benford           acoustic guitar\r\nFrank McCarthy        electric guitar, vocals\r\nMark Walker             bass, vocals\r\nPippa Marland          alto & soprano sax, vocals\r\n\r\n1. Meeting by the river\r\n2. Nothing more\r\n3. Forsaken\r\n4. Injury time\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Performance/Phil_Langran_Still_the_Heart",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "mo:Performance",
+    "annal:EntityData"
+  ],
+  "annal:id": "Phil_Langran_Still_the_Heart",
+  "annal:type": "frbroo:F31_Performance",
+  "annal:type_id": "Performance",
+  "coll:images": [],
+  "crm:P7_took_place_at": "Place/West_Bridgford",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://phillangranband.com/still-the-heart-2014"
     }
   ],
-  "annal:type_id": "Performance",
+  "frbroo:R25F_performed_r": [],
   "prov:qualifiedAssociation": [
     {
       "crm:P12i_was_present_at": "Musician/Phil_Langran",
@@ -45,23 +63,8 @@
       "prov:hadRole": "Role/Vocalist"
     }
   ],
-  "frbroo:R25F_performed_r": [],
-  "@id": "./",
   "prov:startedAtTime": "2014",
-  "crm:P7_took_place_at": "Place/West_Bridgford",
-  "@type": [
-    "frbroo:F31_Performance",
-    "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "mo:Performance",
-    "annal:EntityData"
-  ],
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
   "prov:used_r": [],
-  "annal:id": "Phil_Langran_Still_the_Heart",
-  "coll:images": [],
-  "annal:type": "frbroo:F31_Performance"
+  "rdfs:comment": "Phil Langran: Still the Heart (2014)\r\n\r\nPhil Langran             vocals, acoustic guitar\r\nSteve Benford           acoustic guitar\r\nFrank McCarthy        electric guitar, vocals\r\nMark Walker             bass, vocals\r\nPippa Marland          alto & soprano sax, vocals\r\n\r\n1. Meeting by the river\r\n2. Nothing more\r\n3. Forsaken\r\n4. Injury time\r\n",
+  "rdfs:label": "Phil Langran: Still the Heart (2014)"
 }

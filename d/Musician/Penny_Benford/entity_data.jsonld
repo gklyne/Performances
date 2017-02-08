@@ -1,18 +1,11 @@
 {
-  "rdfs:label": "Penny Benford",
-  "rdfs:comment": "Flute player with Phil Langran",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Musician",
-  "coll:performs_role": [
-    {
-      "@id": "Role/Flute"
-    }
-  ],
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Penny_Benford",
-  "@id": "./",
+  "@id": "Musician/Penny_Benford",
   "@type": [
     "coll:Musician",
     "prov:Entity",
@@ -21,5 +14,16 @@
     "crm:E77_Persistent_Item",
     "annal:EntityData"
   ],
-  "annal:type": "coll:Musician"
+  "annal:id": "Penny_Benford",
+  "annal:type": "coll:Musician",
+  "annal:type_id": "Musician",
+  "coll:performs_role": [
+    {
+      "@id": "Role/Flute"
+    }
+  ],
+  "entity:seeAlso_r": [],
+  "foaf:name": "Penny Benford",
+  "rdfs:comment": "Flute player with Phil Langran",
+  "rdfs:label": "Penny Benford"
 }

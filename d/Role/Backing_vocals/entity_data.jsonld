@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Backing vocals",
-  "rdfs:comment": "Backing vocalist",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
-  "annal:id": "Backing_vocals",
-  "@id": "./",
+  "@id": "Role/Backing_vocals",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Backing_vocals",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Backing vocalist",
+  "rdfs:label": "Backing vocals"
 }
