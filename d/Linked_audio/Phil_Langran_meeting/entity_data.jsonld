@@ -8,6 +8,7 @@
   "@id": "Linked_audio/Phil_Langran_meeting",
   "@type": [
     "coll:Linked_audio",
+    "coll:Included_audio",
     "annal:EntityData"
   ],
   "annal:id": "Phil_Langran_meeting",

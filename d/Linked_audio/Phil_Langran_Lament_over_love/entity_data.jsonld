@@ -8,6 +8,7 @@
   "@id": "Linked_audio/Phil_Langran_Lament_over_love",
   "@type": [
     "coll:Linked_audio",
+    "coll:Included_audio",
     "annal:EntityData"
   ],
   "annal:id": "Phil_Langran_Lament_over_love",
