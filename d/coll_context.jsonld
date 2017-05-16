@@ -1,20 +1,16 @@
 {
   "@context": {
-    "@base": "http://localhost:8000/annalist/c/Performances/./",
-    "@errs": [
-      "Incompatible use of property annal:member in field Journal_ref (new {'gid': u'Journal_ref', '@type': '@id', 'fid': u'Journal_ref'}; was {'fid': u'Event_r', 'vid': u'Artifact', '@container': '@list'})",
-      "Incompatible use of property rdfs:seeAlso in field See_also (new {'gid': u'See_also_r', '@type': '@id', 'fid': u'See_also'}; was {'fid': u'Entity_see_also_r', '@type': '@id', 'vid': 'Vocab_view', '@container': '@set'})"
-    ],
+    "@base": "annalist_site:/c/Performances/./",
     "annal": "http://purl.org/annalist/2014/#",
     "annal:alias_source": {
       "@type": "@id",
-      "fid": "Type_alias_source",
-      "gid": "Type_alias_group"
+      "fid": "Type_aliases",
+      "subfid": "Type_alias_source"
     },
     "annal:alias_target": {
       "@type": "@id",
-      "fid": "Type_alias_target",
-      "gid": "Type_alias_group"
+      "fid": "Type_aliases",
+      "subfid": "Type_alias_target"
     },
     "annal:default_list": {
       "fid": "Coll_default_list_id",
@@ -64,14 +60,19 @@
       "fid": "Field_entity_type",
       "vid": "Field_view"
     },
+    "annal:field_fields": {
+      "@container": "@list",
+      "fid": "Field_fields",
+      "vid": "Field_view"
+    },
     "annal:field_id": {
       "@type": "@id",
-      "fid": "Group_field_sel",
-      "gid": "Group_field_group"
+      "fid": "Group_fields",
+      "subfid": "Group_field_sel"
     },
     "annal:field_placement": {
-      "fid": "Field_placement",
-      "vid": "Field_view"
+      "fid": "Group_fields",
+      "subfid": "Group_field_placement"
     },
     "annal:field_ref_field": {
       "@type": "@id",
@@ -107,11 +108,6 @@
       "fid": "Group_fields",
       "vid": "Field_group_view"
     },
-    "annal:group_ref": {
-      "@type": "@id",
-      "fid": "Field_groupref",
-      "vid": "Field_view"
-    },
     "annal:id": {
       "fid": "Entity_id",
       "vid": "Agent"
@@ -132,7 +128,6 @@
     },
     "annal:member": {
       "@container": "@list",
-      "err": "Incompatible use of property annal:member in field Journal_ref (new {'gid': u'Journal_ref', '@type': '@id', 'fid': u'Journal_ref'}; was {'fid': u'Event_r', 'vid': u'Artifact', '@container': '@list'})",
       "fid": "Event_r",
       "vid": "Artifact"
     },
@@ -150,8 +145,8 @@
     },
     "annal:property_uri": {
       "@type": "@id",
-      "fid": "Field_property",
-      "vid": "Field_view"
+      "fid": "Group_fields",
+      "subfid": "Group_field_property"
     },
     "annal:record_type": {
       "@type": "@id",
@@ -174,6 +169,10 @@
       "@container": "@list",
       "fid": "Type_supertype_uris",
       "vid": "Type_view"
+    },
+    "annal:tooltip": {
+      "fid": "Field_tooltip",
+      "vid": "Field_view"
     },
     "annal:type": {
       "@type": "@id"
@@ -222,21 +221,6 @@
       "fid": "Journal_date",
       "vid": "Journal_entry"
     },
-    "coll:included_image": {
-      "@type": "@id",
-      "fid": "Included_image",
-      "gid": "Included_image_m"
-    },
-    "coll:included_image_m": {
-      "@type": "@id",
-      "fid": "Included_image_m",
-      "gid": "Included_image_r"
-    },
-    "coll:included_image_r": {
-      "@container": "@list",
-      "fid": "Included_image_r",
-      "vid": "Ensemble"
-    },
     "coll:linked_audio_clips": {
       "@container": "@list",
       "fid": "Linked_audio_r",
@@ -244,8 +228,8 @@
     },
     "coll:linked_audio_m": {
       "@type": "@id",
-      "fid": "Linked_audio_m",
-      "gid": "Linked_audio_r"
+      "fid": "Linked_audio_r",
+      "subfid": "Linked_audio_m"
     },
     "coll:linked_image": {
       "@type": "@id",
@@ -271,8 +255,8 @@
     },
     "coll:recorded": {
       "@type": "@id",
-      "fid": "Recording",
-      "gid": "Recording_r"
+      "fid": "Recording_r",
+      "subfid": "Recording"
     },
     "coll:recorded_repeat": {
       "@container": "@list",
@@ -290,8 +274,8 @@
     },
     "coll:uploaded_audio_m": {
       "@type": "@id",
-      "fid": "Uploaded_audio_m",
-      "gid": "Uploaded_audio_r"
+      "fid": "Uploaded_audio_r",
+      "subfid": "Uploaded_audio_m"
     },
     "coll:uploaded_audio_r": {
       "@container": "@list",
@@ -304,8 +288,8 @@
     },
     "coll:uploaded_image_m": {
       "@type": "@id",
-      "fid": "Uploaded_image_m",
-      "gid": "Uploaded_image_r"
+      "fid": "Uploaded_image_r",
+      "subfid": "Uploaded_image_m"
     },
     "coll:uploaded_image_r": {
       "@container": "@list",
@@ -319,8 +303,8 @@
     },
     "coll:web_resource_m": {
       "@type": "@id",
-      "fid": "Web_resource_m",
-      "gid": "Web_resource_r"
+      "fid": "Web_resource_r",
+      "subfid": "Web_resource_m"
     },
     "crm": "http://erlangen-crm.org/current/",
     "crm:P107_has_current_or_former_member": {
@@ -330,8 +314,8 @@
     },
     "crm:P126_employed": {
       "@type": "@id",
-      "fid": "Employed",
-      "gid": "Employed_r"
+      "fid": "Employed_r",
+      "subfid": "Employed"
     },
     "crm:P126_employed_r": {
       "@container": "@list",
@@ -340,8 +324,8 @@
     },
     "crm:P12i_was_present_at": {
       "@type": "@id",
-      "fid": "Event_m",
-      "gid": "Event_r"
+      "fid": "Event_r",
+      "subfid": "Event_m"
     },
     "crm:P7_took_place_at": {
       "@type": "@id",
@@ -355,8 +339,8 @@
     },
     "crm:P89i_contains": {
       "@type": "@id",
-      "fid": "Place_contains",
-      "gid": "Place_contains_repeat"
+      "fid": "Place_contains_r",
+      "subfid": "Place_contains"
     },
     "crm:P89i_contains_repeat": {
       "@container": "@list",
@@ -364,15 +348,11 @@
       "vid": "Place"
     },
     "foaf": "http://xmlns.com/foaf/0.1/",
-    "foaf:name": {
-      "fid": "Person_name",
-      "gid": "Person_m"
-    },
     "frbroo": "http://erlangen-crm.org/efrbroo/",
     "frbroo:R25F_performed": {
       "@type": "@id",
-      "fid": "Played",
-      "gid": "Played_r"
+      "fid": "Played_r",
+      "subfid": "Played"
     },
     "frbroo:R25F_performed_r": {
       "@container": "@list",
@@ -394,8 +374,8 @@
     "prov": "http://www.w3.org/ns/prov#",
     "prov:agent": {
       "@type": "@id",
-      "fid": "Person_m",
-      "gid": "Person_Role_g"
+      "fid": "Person_r",
+      "subfid": "Person_m"
     },
     "prov:hadMember_repeat": {
       "@container": "@list",
@@ -404,8 +384,8 @@
     },
     "prov:hadRole": {
       "@type": "@id",
-      "fid": "Role",
-      "gid": "Performer_Role_g"
+      "fid": "Person_r",
+      "subfid": "Role"
     },
     "prov:qualifiedAssociation": {
       "@container": "@list",
@@ -418,8 +398,8 @@
     },
     "prov:used": {
       "@type": "@id",
-      "fid": "Used",
-      "gid": "Used_r"
+      "fid": "Used_r",
+      "subfid": "Used"
     },
     "prov:used_r": {
       "@container": "@list",
@@ -428,8 +408,8 @@
     },
     "prov:wasAttributedTo": {
       "@type": "@id",
-      "fid": "Composer",
-      "gid": "Composer_r"
+      "fid": "Composer_r",
+      "subfid": "Composer"
     },
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
@@ -442,11 +422,9 @@
       "vid": "Agent"
     },
     "rdfs:seeAlso": {
-      "@container": "@set",
       "@type": "@id",
-      "err": "Incompatible use of property rdfs:seeAlso in field See_also (new {'gid': u'See_also_r', '@type': '@id', 'fid': u'See_also'}; was {'fid': u'Entity_see_also_r', '@type': '@id', 'vid': 'Vocab_view', '@container': '@set'})",
-      "fid": "Entity_see_also_r",
-      "vid": "Vocab_view"
+      "fid": "See_also_r",
+      "subfid": "See_also"
     },
     "resource_name": "annal:resource_name",
     "resource_type": "annal:resource_type",
@@ -455,5 +433,5 @@
     "uploaded_size": "annal:uploaded_size",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "_comment": "Generated by generate_coll_jsonld_context on 2017-02-08 14:53:09"
+  "_comment": "Generated by generate_coll_jsonld_context on 2017-05-05 17:07:55"
 }
