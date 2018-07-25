@@ -7,21 +7,15 @@
   ],
   "@id": "Musician/Geoff_Castle",
   "@type": [
-    "coll:Musician",
+    "perf:Musician",
     "prov:Entity",
-    "prov:Agent",
     "crm:E39_Actor",
-    "crm:E77_Persistent_Item",
+    "prov:Agent",
     "annal:EntityData"
   ],
   "annal:id": "Geoff_Castle",
-  "annal:type": "coll:Musician",
+  "annal:type": "perf:Musician",
   "annal:type_id": "Musician",
-  "coll:performs_role": [
-    {
-      "@id": "Role/Piano"
-    }
-  ],
   "crm:P107_has_current_or_former_member": [],
   "entity:seeAlso_r": [
     {
@@ -29,6 +23,11 @@
     }
   ],
   "foaf:name": "Geoff Castle",
+  "perf:performs_role": [
+    {
+      "@id": "Role/Piano"
+    }
+  ],
   "rdfs:comment": "Since 1970 Geoff has worked as a professional jazz keyboard player with many top British jazz artists recording albums covering a wide variety of jazz and folk music.",
   "rdfs:label": "Geoff Castle"
 }

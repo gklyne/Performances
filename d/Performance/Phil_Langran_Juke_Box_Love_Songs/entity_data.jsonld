@@ -9,15 +9,11 @@
   "@type": [
     "frbroo:F31_Performance",
     "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "mo:Performance",
     "annal:EntityData"
   ],
   "annal:id": "Phil_Langran_Juke_Box_Love_Songs",
   "annal:type": "frbroo:F31_Performance",
   "annal:type_id": "Performance",
-  "coll:images": [],
   "crm:P7_took_place_at": "Place/West_Bridgford",
   "entity:seeAlso_r": [],
   "frbroo:R25F_performed_r": [],
@@ -70,5 +66,6 @@
   "prov:startedAtTime": "2011",
   "prov:used_r": [],
   "rdfs:comment": "Juke Box Love Songs, Leaving Blues, Border Crossings and Lovers' Laments.\r\n\r\n1. Juke box love song\r\n2. Lament over love\r\n3. Homesick poor boy blues\r\n4. Leaving this town\r\n5. Mother to son\r\n6. Hard daddy\r\n7. The end of the street\r\n8. Never been to Harlem\r\n9. Pierrot\r\n10. Harlem night song\r\n11. Love\r\n12. Harlem night song (reprise)\r\n\r\n",
-  "rdfs:label": "Phil Langran: Juke Box Love Songs, etc."
+  "rdfs:label": "Phil Langran: Juke Box Love Songs, etc.",
+  "resource:uploaded_image_r": []
 }

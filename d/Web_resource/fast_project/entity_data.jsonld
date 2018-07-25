@@ -7,13 +7,13 @@
   ],
   "@id": "Web_resource/fast_project",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
   "annal:id": "fast_project",
-  "annal:type": "coll:Web_resource",
+  "annal:type": "resource:Web_resource",
   "annal:type_id": "Web_resource",
-  "coll:web_resource": "http://www.semanticaudio.ac.uk",
   "rdfs:comment": "FAST project web site",
-  "rdfs:label": "FAST project web site"
+  "rdfs:label": "FAST project web site",
+  "resource:web_resource": "http://www.semanticaudio.ac.uk"
 }

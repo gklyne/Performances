@@ -13,7 +13,8 @@
   "annal:default_view": "_view/Default_view",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Linked_audio",
-  "annal:list_entity_selector": "\"coll:Linked_audio\" in [@type]",
+  "annal:list_entity_selector": "\"journal:Linked_audio\" in [@type]",
+  "annal:list_entity_type": "journal:Linked_audio",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -24,7 +25,6 @@
       "annal:field_placement": "small:3,9"
     }
   ],
-  "annal:record_type": "coll:Linked_audio",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "rdfs:comment": "List of linked audio clips",

@@ -16,7 +16,7 @@
   "annal:type_id": "_type",
   "annal:type_list": "_list/Included_audio",
   "annal:type_view": "_view/Included_audio",
-  "annal:uri": "coll:Included_audio",
+  "annal:uri": "journal:Included_audio",
   "rdfs:comment": "Reference to included (uploaded, imported or linked) audio clip",
   "rdfs:label": "Included audio (internal type)"
 }

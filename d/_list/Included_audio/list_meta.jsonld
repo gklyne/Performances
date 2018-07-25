@@ -13,7 +13,8 @@
   "annal:default_view": "_view/Included_audio",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Included_audio",
-  "annal:list_entity_selector": "'coll:Included_audio' in [@type]",
+  "annal:list_entity_selector": "'journal:Included_audio' in [@type]",
+  "annal:list_entity_type": "journal:Included_audio",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -28,7 +29,6 @@
       "annal:field_placement": "small:6,6"
     }
   ],
-  "annal:record_type": "coll:Included_audio",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "rdfs:comment": "List of Included audio clips (internal type)",

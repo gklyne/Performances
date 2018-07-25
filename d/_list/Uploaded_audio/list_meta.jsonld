@@ -13,7 +13,8 @@
   "annal:default_view": "_view/Default_view",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Uploaded_audio",
-  "annal:list_entity_selector": "\"coll:Uploaded_audio\" in [@type]",
+  "annal:list_entity_selector": "\"journal:Uploaded_audio\" in [@type]",
+  "annal:list_entity_type": "journal:Uploaded_audio",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -24,7 +25,6 @@
       "annal:field_placement": "small:3,9"
     }
   ],
-  "annal:record_type": "coll:Uploaded_audio",
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "rdfs:comment": "List of uploaded audio clips",

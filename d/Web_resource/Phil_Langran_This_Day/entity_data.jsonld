@@ -7,18 +7,18 @@
   ],
   "@id": "Web_resource/Phil_Langran_This_Day",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
   "annal:id": "Phil_Langran_This_Day",
-  "annal:type": "coll:Web_resource",
+  "annal:type": "resource:Web_resource",
   "annal:type_id": "Web_resource",
-  "coll:images": [],
-  "coll:performs_role": [],
-  "coll:recorded_repeat": [],
-  "coll:web_resource": "http://phillangranband.com/albums/297532",
   "crm:P107_has_current_or_former_member": [],
   "entity:seeAlso_r": [],
+  "perf:performs_role": [],
+  "perf:recorded_repeat": [],
   "rdfs:comment": "Download link for Phil Langran Band's album \"This Day\"",
-  "rdfs:label": "Phil Langran: This Day (2005) download"
+  "rdfs:label": "Phil Langran: This Day (2005) download",
+  "resource:uploaded_image_r": [],
+  "resource:web_resource": "http://phillangranband.com/albums/297532"
 }

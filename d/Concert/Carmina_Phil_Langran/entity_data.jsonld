@@ -7,34 +7,15 @@
   ],
   "@id": "Concert/Carmina_Phil_Langran",
   "@type": [
-    "coll:Concert",
-    "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "mo:Performance",
+    "perf:Concert",
     "frbroo:F31_Performance",
+    "prov:Activity",
     "annal:EntityData"
   ],
   "annal:id": "Carmina_Phil_Langran",
   "annal:missing_field": "",
-  "annal:type": "coll:Concert",
+  "annal:type": "perf:Concert",
   "annal:type_id": "Concert",
-  "coll:images": [
-    {
-      "coll:Image": "Uploaded_image/Carmina_Phil_Langran_poster"
-    },
-    {
-      "coll:Image": "Uploaded_image/Carmina_Pippa_Rob_live"
-    }
-  ],
-  "coll:uploaded_image_r": [
-    {
-      "coll:uploaded_image_m": "Uploaded_image/Carmina_Phil_Langran_poster"
-    },
-    {
-      "coll:uploaded_image_m": "Uploaded_image/Carmina_Pippa_Rob_live"
-    }
-  ],
   "crm:P126_employed_r": [],
   "crm:P7_took_place_at": "Place/The_Maze_Nottingham",
   "entity:seeAlso_r": [
@@ -62,5 +43,13 @@
   "prov:startedAtTime": "2016-01-17T20:00",
   "prov:used_r": [],
   "rdfs:comment": "## Carmina\r\n\r\nCarmina began their career in Bristol in the 1990's; since then they have \r\ntoured all over the world and recorded five albums, two of which were produced \r\nby Irish music legend Donal Lunny. Their music is an intoxicating blend of \r\nCeltic-inspired themes and jazz improvisation, woven together in powerful \r\noriginal songs.  The band will be playing material from their new album \r\n'Landmarks', due for release in early 2016.\r\n\r\n'Glorious... gorgeously haunting' - Time Out\r\n\r\n'Powerful and spiritually uplifting' - The Guardian\r\n\r\n'Jazz, folk and celtic fusion that mesmerises and bewitches' - Irish Times\r\n\r\nLineup for the gig on Sunday:\r\n\r\n* Pippa Marland \u2013 vocals, sax, whistles\r\n* Rob King - acoustic guitar, bodhran\r\n* Gina Griffin \u2013 fiddle, vocals\r\n* Geoff Castle -  piano, vocals\r\n\r\nwith special guests:\r\n\r\n* Mark Walker \u2013 bass\r\n* Steve Benford \u2013 acoustic guitar, tenor banjo\r\n\r\n\r\n## Phil Langran band\r\n\r\nNottingham songwriter Phil Langran\u2019s songs are engaging, literate and accessible. His versatile band  creates a unique sound firmly rooted in folk, while interweaving elements of American, Celtic, blues and jazz traditions.\r\n\r\nLine-up for this performance:\r\n\r\n* Phil Langran \u2013 vocals and acoustic guitar\r\n* Frank McCarthy \u2013 electric guitar, vocals\r\n* Steve Benford \u2013 acoustic guitar, tenor banjo, vocals\r\n* Mark Walker \u2013 bass, vocals\r\n* Alistair Bloomfield \u2013 fiddle\r\n\r\nand  Special guest:\r\n\r\n* Pippa Marland \u2013 sax, whistle, vocals\r\n\r\n",
-  "rdfs:label": "Carmina and Phil Langran band at the Maze, Nottingham"
+  "rdfs:label": "Carmina and Phil Langran band at the Maze, Nottingham",
+  "resource:uploaded_image_r": [
+    {
+      "resource:uploaded_image_m": "Uploaded_image/Carmina_Phil_Langran_poster"
+    },
+    {
+      "resource:uploaded_image_m": "Uploaded_image/Carmina_Pippa_Rob_live"
+    }
+  ]
 }

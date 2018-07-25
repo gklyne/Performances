@@ -7,14 +7,14 @@
   ],
   "@id": "Feedback/00000001",
   "@type": [
-    "coll:Feedback",
+    "perf:Feedback",
     "annal:EntityData"
   ],
   "annal:id": "00000001",
-  "annal:type": "coll:Feedback",
+  "annal:type": "perf:Feedback",
   "annal:type_id": "Feedback",
-  "coll:moderated": false,
-  "coll:rating": "5",
+  "perf:moderated": false,
+  "perf:rating": "5",
   "rdfs:comment": "Best performance ever seen\r\n\r\n(sample feedback record)",
   "rdfs:label": "Socks blown off (sample record)"
 }

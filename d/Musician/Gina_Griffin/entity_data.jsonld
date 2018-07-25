@@ -7,21 +7,15 @@
   ],
   "@id": "Musician/Gina_Griffin",
   "@type": [
-    "coll:Musician",
+    "perf:Musician",
     "prov:Entity",
-    "prov:Agent",
     "crm:E39_Actor",
-    "crm:E77_Persistent_Item",
+    "prov:Agent",
     "annal:EntityData"
   ],
   "annal:id": "Gina_Griffin",
-  "annal:type": "coll:Musician",
+  "annal:type": "perf:Musician",
   "annal:type_id": "Musician",
-  "coll:performs_role": [
-    {
-      "@id": "Role/Violin"
-    }
-  ],
   "crm:P107_has_current_or_former_member": [],
   "entity:seeAlso_r": [
     {
@@ -29,6 +23,11 @@
     }
   ],
   "foaf:name": "Gina Griffin",
+  "perf:performs_role": [
+    {
+      "@id": "Role/Violin"
+    }
+  ],
   "rdfs:comment": "\"fiddle virtuoso\"",
   "rdfs:label": "Gina Griffin"
 }

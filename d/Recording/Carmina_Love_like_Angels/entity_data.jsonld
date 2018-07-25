@@ -9,11 +9,6 @@
   "@type": [
     "frbroo:F26_Recording",
     "prov:Entity",
-    "crm:E70_Thing",
-    "crm:E71_Man-Made_Thing",
-    "crm:E28_Conceptual_Object",
-    "frbroo:F2_Expression",
-    "mo:MusicalExpression",
     "annal:EntityData"
   ],
   "annal:id": "Carmina_Love_like_Angels",

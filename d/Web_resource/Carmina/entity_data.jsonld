@@ -7,13 +7,13 @@
   ],
   "@id": "Web_resource/Carmina",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
   "annal:id": "Carmina",
-  "annal:type": "coll:Web_resource",
+  "annal:type": "resource:Web_resource",
   "annal:type_id": "Web_resource",
-  "coll:web_resource": "http://www.carmina.co.uk",
   "rdfs:comment": "Carmina web site",
-  "rdfs:label": "Carmina web site"
+  "rdfs:label": "Carmina web site",
+  "resource:web_resource": "http://www.carmina.co.uk"
 }

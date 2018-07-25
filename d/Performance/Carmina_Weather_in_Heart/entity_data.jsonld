@@ -9,15 +9,11 @@
   "@type": [
     "frbroo:F31_Performance",
     "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "mo:Performance",
     "annal:EntityData"
   ],
   "annal:id": "Carmina_Weather_in_Heart",
   "annal:type": "frbroo:F31_Performance",
   "annal:type_id": "Performance",
-  "coll:images": [],
   "crm:P7_took_place_at": "Place/Dublin",
   "entity:seeAlso_r": [
     {
@@ -34,5 +30,6 @@
   "prov:startedAtTime": "1995",
   "prov:used_r": [],
   "rdfs:comment": "Weather in the Heart\r\n\r\nTrack Listing for I&E Reissue:\r\n\r\n1. Bird Of Paradise (mp3)\r\n2. Weather in the Heart (mp3)\r\n3. Concorde\r\n4. The Leaving Wakes\r\n5. Down to Land/Garrett Barry's\r\n6. Ah Sweet Dancer\r\n7. Carolan\r\n8. Last Call for Tomorrow\r\n9. The Five Lakes\r\n10. Red River Valley Girl\r\n11. Mountains of Prayer\r\n\r\nRecorded in Dublin (1995) and produced by Donal Lunny.\r\n\r\nFeaturing Richie Buckley and Dave Early (from Van Morrison's band) in the Carmina lineup alongside Pippa, Rob, Pete Jacobsen, Nigel Thomas and guests Mike Nolan, Laoise Kelly, John McSherry and Donal Lunny.",
-  "rdfs:label": "Carmina: Weather in the Heart (studio)"
+  "rdfs:label": "Carmina: Weather in the Heart (studio)",
+  "resource:uploaded_image_r": []
 }

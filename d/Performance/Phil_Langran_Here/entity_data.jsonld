@@ -9,19 +9,11 @@
   "@type": [
     "frbroo:F31_Performance",
     "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "mo:Performance",
     "annal:EntityData"
   ],
   "annal:id": "Phil_Langran_Here",
   "annal:type": "frbroo:F31_Performance",
   "annal:type_id": "Performance",
-  "coll:images": [
-    {
-      "coll:Image": "Image/Phil_Langran_Here_cover"
-    }
-  ],
   "crm:P7_took_place_at": "Place/West_Bridgford",
   "entity:seeAlso_r": [
     {
@@ -78,5 +70,10 @@
   "prov:startedAtTime": "2010",
   "prov:used_r": [],
   "rdfs:comment": "Phil Langran: vocals, acoustic guitar\r\nSteve Benford: acoustic guitar, banjo\r\nFrank McCarthy: electric guitar, backing vocals\r\nPippa Marland sax, whistle, backing vocals\r\nRick Dizon: Dobro\r\n\r\nTracks:\r\n\r\n1. Harlem night song\r\n2. Snow on the mountain\r\n3. Country of the blind\r\n4. I walked through the old town\r\n5. Since you broke my picture of the world\r\n6. Fools gold again\r\n7. Circle round my heart\r\n8. Oh blues\r\n9. Acadia\r\n10. The line of least resistance\r\n11. I can't change your mind\r\n12. Mountains of the moon\r\n13. Again\r\n14. Join the dance\r\n15. Burden of dreams\r\n",
-  "rdfs:label": "Phil Langran: Here (2010)"
+  "rdfs:label": "Phil Langran: Here (2010)",
+  "resource:uploaded_image_r": [
+    {
+      "resource:uploaded_image_m": "Linked_image/Phil_Langran_Here_cover"
+    }
+  ]
 }

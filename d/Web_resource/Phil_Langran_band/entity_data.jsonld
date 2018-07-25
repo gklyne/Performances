@@ -7,13 +7,13 @@
   ],
   "@id": "Web_resource/Phil_Langran_band",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
   "annal:id": "Phil_Langran_band",
-  "annal:type": "coll:Web_resource",
+  "annal:type": "resource:Web_resource",
   "annal:type_id": "Web_resource",
-  "coll:web_resource": "http://phillangranband.com",
   "rdfs:comment": "Phil Langran Band web site",
-  "rdfs:label": "Phil Langran Band web site"
+  "rdfs:label": "Phil Langran Band web site",
+  "resource:web_resource": "http://phillangranband.com"
 }

@@ -9,37 +9,13 @@
   "@type": [
     "crm:E74_Group",
     "prov:Entity",
-    "prov:Agent",
     "crm:E39_Actor",
+    "prov:Agent",
     "annal:EntityData"
   ],
   "annal:id": "Carmina",
   "annal:type": "crm:E74_Group",
   "annal:type_id": "Ensemble",
-  "coll:images": [
-    {
-      "coll:Image": "Uploaded_image/Carmina_Pippa_Rob_live"
-    }
-  ],
-  "coll:performs_role": [
-    {
-      "@id": "Role/Band_celtic_jazz"
-    }
-  ],
-  "coll:recorded_repeat": [
-    {
-      "coll:recorded": "Recording/Carmina_Crescent_City"
-    },
-    {
-      "coll:recorded": "Recording/Carmina_Love_like_Angels"
-    },
-    {
-      "coll:recorded": "Recording/Carmina_Quiet_Street"
-    },
-    {
-      "coll:recorded": "Recording/Carmina_Weather_in_Heart"
-    }
-  ],
   "crm:P107_has_current_or_former_member": [
     {
       "@id": "Musician/Pippa_Marland"
@@ -59,7 +35,31 @@
       "rdfs:seeAlso": "http://www.carmina.co.uk/"
     }
   ],
+  "perf:performs_role": [
+    {
+      "@id": "Role/Band_celtic_jazz"
+    }
+  ],
+  "perf:recorded_repeat": [
+    {
+      "perf:recorded": "Recording/Carmina_Crescent_City"
+    },
+    {
+      "perf:recorded": "Recording/Carmina_Love_like_Angels"
+    },
+    {
+      "perf:recorded": "Recording/Carmina_Quiet_Street"
+    },
+    {
+      "perf:recorded": "Recording/Carmina_Weather_in_Heart"
+    }
+  ],
   "prov:hadRole": "",
   "rdfs:comment": "Their music is an intoxicating blend of Celtic-inspired themes and jazz improvisation, woven together in powerful original songs.\r\n",
-  "rdfs:label": "Carmina"
+  "rdfs:label": "Carmina",
+  "resource:included_image_r": [
+    {
+      "resource:included_image_m": "Uploaded_image/Carmina_Pippa_Rob_live"
+    }
+  ]
 }

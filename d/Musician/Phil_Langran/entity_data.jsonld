@@ -7,17 +7,22 @@
   ],
   "@id": "Musician/Phil_Langran",
   "@type": [
-    "coll:Musician",
+    "perf:Musician",
     "prov:Entity",
-    "prov:Agent",
     "crm:E39_Actor",
-    "crm:E77_Persistent_Item",
+    "prov:Agent",
     "annal:EntityData"
   ],
   "annal:id": "Phil_Langran",
-  "annal:type": "coll:Musician",
+  "annal:type": "perf:Musician",
   "annal:type_id": "Musician",
-  "coll:performs_role": [
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.phillangranband.com/about-us"
+    }
+  ],
+  "foaf:name": "Phil Langran",
+  "perf:performs_role": [
     {
       "@id": "Role/Vocalist"
     },
@@ -25,12 +30,6 @@
       "@id": "Role/Guitars"
     }
   ],
-  "entity:seeAlso_r": [
-    {
-      "rdfs:seeAlso": "http://www.phillangranband.com/about-us"
-    }
-  ],
-  "foaf:name": "Phil Langran",
   "rdfs:comment": "Phil has created his own genre, where Harlem nights and New York cityscapes rub shoulders with the West Coast of Ireland and scenes from Werner Herzog's films. Phil has extended his range to include adaptations of works by some twentieth century poets. His first steps in this direction resulted in an album of adaptations of poems by the noted Harlem writer, Langston Hughes. Released on Nottingham\u2019s Folkwit label in 2011 \u201cJukebox Love Songs, Leaving Blues, Border Crossings and Lovers\u2019 Laments\u201d features settings of some of Hughes\u2019 most lyrical pieces alongside three originals by Langran.",
   "rdfs:label": "Phil Langran"
 }

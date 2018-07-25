@@ -9,29 +9,11 @@
   "@type": [
     "frbroo:F26_Recording",
     "prov:Entity",
-    "crm:E70_Thing",
-    "crm:E71_Man-Made_Thing",
-    "crm:E28_Conceptual_Object",
-    "frbroo:F2_Expression",
-    "mo:MusicalExpression",
     "annal:EntityData"
   ],
   "annal:id": "Phil_Langran_Here",
   "annal:type": "frbroo:F26_Recording",
   "annal:type_id": "Recording",
-  "coll:linked_audio_clips": [
-    {
-      "coll:linked_audio_m": "Linked_audio/Phil_Langran_Here_snow"
-    },
-    {
-      "coll:linked_audio_m": "Linked_audio/Phil_Langran_Here_burden"
-    }
-  ],
-  "coll:linked_images": [
-    {
-      "coll:linked_image": "Linked_image/Phil_Langran_Here_cover"
-    }
-  ],
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://phillangranband.com/here-2010"
@@ -40,5 +22,18 @@
   "mo:records": "Performance/Phil_Langran_Here",
   "prov:hadMember_repeat": [],
   "rdfs:comment": "Phil Langran: vocals, acoustic guitar\r\nSteve Benford: acoustic guitar, banjo\r\nFrank McCarthy: electric guitar, backing vocals\r\nPippa Marland sax, whistle, backing vocals\r\nRick Dizon: Dobro\r\n\r\nAll songs written by Phil Langran except Harlem Night Song, words by Langston Hughes\r\n\r\nSleeve design by Tom Partridge\r\nPhotography Max Langran\r\n\r\nSpecial thanks to Chris Pitcher for lending his ears\r\nAnd to Jenny, Max and Rosa, John, Denise and Una\r\n\r\nRecorded and produced by Frank McCarthy in West Bridgeford, Nottingham\r\n\r\nDedicated to the memory of Alfred William Langran\r\n\r\nCopyright 2010 Phil Langran\r\nWords to Harlem Night Song copyright 1994 The Estate of Langston Hughes\r\n\r\nTracks:\r\n\r\n1. Harlem night song\r\n2. Snow on the mountain\r\n3. Country of the blind\r\n4. I walked through the old town\r\n5. Since you broke my picture of the world\r\n6. Fools gold again\r\n7. Circle round my heart\r\n8. Oh blues\r\n9. Acadia\r\n10. The line of least resistance\r\n11. I can't change your mind\r\n12. Mountains of the moon\r\n13. Again\r\n14. Join the dance\r\n15. Burden of dreams\r\n",
-  "rdfs:label": "Phil Langran: Here (2010)"
+  "rdfs:label": "Phil Langran: Here (2010)",
+  "resource:linked_audio_clips": [
+    {
+      "resource:linked_audio_m": "Linked_audio/Phil_Langran_Here_snow"
+    },
+    {
+      "resource:linked_audio_m": "Linked_audio/Phil_Langran_Here_burden"
+    }
+  ],
+  "resource:linked_images": [
+    {
+      "resource:linked_image": "Linked_image/Phil_Langran_Here_cover"
+    }
+  ]
 }

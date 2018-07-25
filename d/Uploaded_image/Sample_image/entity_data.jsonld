@@ -7,27 +7,27 @@
   ],
   "@id": "Uploaded_image/Sample_image",
   "@type": [
-    "coll:Uploaded_image",
-    "coll:Included_image",
+    "resource:Uploaded_image",
+    "resource:Included_image",
     "annal:EntityData"
   ],
   "annal:id": "Sample_image",
-  "annal:type": "coll:Uploaded_image",
+  "annal:type": "resource:Uploaded_image",
   "annal:type_id": "Uploaded_image",
-  "coll:included_image": {
-    "resource_name": "Uploaded_image.jpg",
-    "resource_type": "image/jpeg",
-    "upload_name": "Uploaded_image",
-    "uploaded_file": "20150426-1356-038.jpg",
-    "uploaded_size": 1509337
-  },
-  "coll:uploaded_image": {
-    "resource_name": "Uploaded_image.jpg",
-    "resource_type": "image/jpeg",
-    "upload_name": "Uploaded_image",
-    "uploaded_file": "20150426-1356-038.jpg",
-    "uploaded_size": 1509337
-  },
   "rdfs:comment": "Fox spotted at Kegworth Lock in 2015",
-  "rdfs:label": "Sample image"
+  "rdfs:label": "Sample image",
+  "resource:included_image": {
+    "resource_name": "Uploaded_image.jpg",
+    "resource_type": "image/jpeg",
+    "upload_name": "Uploaded_image",
+    "uploaded_file": "20150426-1356-038.jpg",
+    "uploaded_size": 1509337
+  },
+  "resource:uploaded_image": {
+    "resource_name": "Uploaded_image.jpg",
+    "resource_type": "image/jpeg",
+    "upload_name": "Uploaded_image",
+    "uploaded_file": "20150426-1356-038.jpg",
+    "uploaded_size": 1509337
+  }
 }

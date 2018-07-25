@@ -15,12 +15,12 @@
   "annal:id": "Ali_Dennis",
   "annal:type": "crm:E39_Actor",
   "annal:type_id": "Performer",
-  "coll:performs_role": [
+  "entity:seeAlso_r": [],
+  "perf:performs_role": [
     {
       "@id": "Role/Backing_vocals"
     }
   ],
-  "entity:seeAlso_r": [],
   "rdfs:comment": "Backing vocals with Phil Langran Band",
   "rdfs:label": "Ali Dennis"
 }

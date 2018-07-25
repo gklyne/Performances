@@ -7,15 +7,15 @@
   ],
   "@id": "Linked_audio/Phil_Langran_Here_burden",
   "@type": [
-    "coll:Linked_audio",
-    "coll:Included_audio",
+    "journal:Linked_audio",
+    "journal:Included_audio",
     "annal:EntityData"
   ],
   "annal:id": "Phil_Langran_Here_burden",
-  "annal:type": "coll:Linked_audio",
+  "annal:type": "journal:Linked_audio",
   "annal:type_id": "Linked_audio",
-  "coll:audio_clip": "http://phillangranband.com/track/94834/burden-of-dreams?feature_id=43930",
-  "coll:included_audio": "",
   "rdfs:comment": "Phil Langran: Here: Burden of dreams",
-  "rdfs:label": "Phil Langran: Here: Burden of dreams"
+  "rdfs:label": "Phil Langran: Here: Burden of dreams",
+  "resource:included_audio": "http://phillangranband.com/track/94834/burden-of-dreams?feature_id=43930",
+  "resource:linked_audio": "http://phillangranband.com/track/94834/burden-of-dreams?feature_id=43930"
 }

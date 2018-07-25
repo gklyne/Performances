@@ -9,9 +9,6 @@
   "@type": [
     "frbroo:F31_Performance",
     "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "mo:Performance",
     "annal:EntityData"
   ],
   "annal:id": "Carmina_Crescent_City",

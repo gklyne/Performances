@@ -7,27 +7,15 @@
   ],
   "@id": "Musician/Pippa_Marland",
   "@type": [
-    "coll:Musician",
+    "perf:Musician",
     "prov:Entity",
-    "prov:Agent",
     "crm:E39_Actor",
-    "crm:E77_Persistent_Item",
+    "prov:Agent",
     "annal:EntityData"
   ],
   "annal:id": "Pippa_Marland",
-  "annal:type": "coll:Musician",
+  "annal:type": "perf:Musician",
   "annal:type_id": "Musician",
-  "coll:performs_role": [
-    {
-      "@id": "Role/Vocalist"
-    },
-    {
-      "@id": "Role/Saxophones"
-    },
-    {
-      "@id": "Role/Whistles"
-    }
-  ],
   "crm:P107_has_current_or_former_member": [],
   "entity:seeAlso_r": [
     {
@@ -38,6 +26,17 @@
     }
   ],
   "foaf:name": "Pippa Marland",
+  "perf:performs_role": [
+    {
+      "@id": "Role/Vocalist"
+    },
+    {
+      "@id": "Role/Saxophones"
+    },
+    {
+      "@id": "Role/Whistles"
+    }
+  ],
   "rdfs:comment": "Co-founder of Carmina; vocals, saxes, whistles\r\n\r\nAlso plays with the Phil Langran band",
   "rdfs:label": "Pippa Marland"
 }

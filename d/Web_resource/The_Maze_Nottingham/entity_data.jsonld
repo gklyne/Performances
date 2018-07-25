@@ -7,13 +7,13 @@
   ],
   "@id": "Web_resource/The_Maze_Nottingham",
   "@type": [
-    "coll:Web_resource",
+    "resource:Web_resource",
     "annal:EntityData"
   ],
   "annal:id": "The_Maze_Nottingham",
-  "annal:type": "coll:Web_resource",
+  "annal:type": "resource:Web_resource",
   "annal:type_id": "Web_resource",
-  "coll:web_resource": "http://www.themazerocks.com",
   "rdfs:comment": "The Maze music venue, Nottingham",
-  "rdfs:label": "The Maze music venue, Nottingham"
+  "rdfs:label": "The Maze music venue, Nottingham",
+  "resource:web_resource": "http://www.themazerocks.com"
 }

@@ -16,7 +16,7 @@
   "annal:type_id": "_type",
   "annal:type_list": "_list/Included_images",
   "annal:type_view": "_view/Included_image",
-  "annal:uri": "coll:Included_image",
+  "annal:uri": "resource:Included_image",
   "rdfs:comment": "Reference to included (uploaded, imported or linked) image",
   "rdfs:label": "Included image (internal type)"
 }

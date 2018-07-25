@@ -9,27 +9,11 @@
   "@type": [
     "frbroo:F26_Recording",
     "prov:Entity",
-    "crm:E70_Thing",
-    "crm:E71_Man-Made_Thing",
-    "crm:E28_Conceptual_Object",
-    "frbroo:F2_Expression",
-    "mo:MusicalExpression",
     "annal:EntityData"
   ],
   "annal:id": "Phil_Langran_Still_the_Heart",
   "annal:type": "frbroo:F26_Recording",
   "annal:type_id": "Recording",
-  "coll:included_image_r": [],
-  "coll:linked_audio_clips": [
-    {
-      "coll:linked_audio_m": "Linked_audio/Phil_Langran_meeting"
-    }
-  ],
-  "coll:linked_images": [
-    {
-      "coll:linked_image": "Linked_image/Phil_Langran_still_cover"
-    }
-  ],
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://phillangranband.com/still-the-heart-2014"
@@ -38,5 +22,16 @@
   "mo:records": "Performance/Phil_Langran_Still_the_Heart",
   "prov:hadMember_repeat": [],
   "rdfs:comment": "Phil Langran: Still the Heart (2014)\r\n\r\nPhil Langran             vocals, acoustic guitar\r\nSteve Benford           acoustic guitar\r\nFrank McCarthy        electric guitar, vocals\r\nMark Walker             bass, vocals\r\nPippa Marland          alto & soprano sax, vocals\r\n\r\n\u2018Still the Heart\u2019 is The Phil Langran Band\u2019s new CD, released by Folkwit Records on 6th October 2014. It\u2019s an EP of four Phil Langran originals featuring the band\u2019s signature sound \u2013 lush close harmonies, sparkling intermeshed guitars, highly melodic sax and electric guitar lines, enhanced and underpinned by fretless bass. Through literate lyrics and intriguing melodies the songs tell of friends and family, of love and loss, and trust in the kindness of strangers and kin.\r\n \r\nLike the band\u2019s last album, \u2018Juke Box Love Songs\u2019 (2011), the new CD is produced by Frank McCarthy and packaged in a gorgeous sleeve courtesy of Max Langran\u2019s photography and Tom Partridge\u2019s artwork. Two songs, \u2018Injury Time\u2019 and \u2018Nothing More\u2019 have been in the band set for some time, whilst \u2018Forsaken\u2019 and \u2018Meeting by the River\u2019 are new compositions. As \u2018Tykes News\u2019 characterised Phil\u2019s work, these are \u2018proper grown-up love songs\u2019 featuring \u2018premier league wordsmithery\u2019.\r\n \r\nThe line-up features all the band on vocals, Phil Langran and Steve Benford on acoustic guitars, Pippa Marland on soprano and alto sax, Frank McCarthy on electric guitar and Mark Walker on bass. \u2018Still the Heart\u2019 is dedicated to the good folk of Beeston, Nottingham, for giving us all a home from home.\r\n\r\n \r\nVocal arrangements Frank McCarthy\r\n \r\nAll songs written by Phil Langran\r\n \r\nC&P 2014 Phil Langran\r\n \r\nCover Artwork Tom Partridge\r\nPhotography Max Langran\r\n \r\nRecorded and produced by Frank McCarthy in West Bridgford, Nottingham\r\n \r\nDedicated to the Good Folk of Beeston\r\n\r\nTracks:\r\n\r\n1. Meeting by the river\r\n2. Nothing more\r\n3. Forsaken\r\n4. Injury time\r\n",
-  "rdfs:label": "Phil Langran: Still the Heart (2014)"
+  "rdfs:label": "Phil Langran: Still the Heart (2014)",
+  "resource:included_image_r": [],
+  "resource:linked_audio_clips": [
+    {
+      "resource:linked_audio_m": "Linked_audio/Phil_Langran_meeting"
+    }
+  ],
+  "resource:linked_images": [
+    {
+      "resource:linked_image": "Linked_image/Phil_Langran_still_cover"
+    }
+  ]
 }
